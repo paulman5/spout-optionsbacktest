@@ -33,7 +33,7 @@ def parse_range(value: str | None):
     return (lo, hi)
 
 def make_client():
-    return RESTClient(api_key=os.getenv("MASSIVE_API_KEY"))
+    return RESTClient(api_key=os.getenv("MASSIVE_APY_KEY"))
 
 def today_et() -> datetime:
     return datetime.now(ET)
@@ -105,8 +105,8 @@ def screen_candidates(chain,
                       expiration_date: str,
                       min_otm_pct=0.00,
                       max_otm_pct=0.03,
-                      delta_lo=0.15,
-                      delta_hi=0.35,
+                      delta_lo=0.20,
+                      delta_hi=0.40,
                       min_bid=0.05,
                       min_oi=1,
                       min_volume=0,
@@ -240,17 +240,22 @@ def mark_realized_pnl(csv_path: str, underlying_close: float) -> str:
     df.to_csv(out, index=False)
     return out
 
+
+
+## Long-Call Backtesting sections
+
+
 def main():
     ap = argparse.ArgumentParser(description="0-DTE covered-call screener")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     sc = sub.add_parser("screen", help="Run the screener and write a CSV")
-    sc.add_argument("--symbol", default="SPY")
-    sc.add_argument("--expiration-days", type=int, default=0)
+    sc.add_argument("--symbol", default="TSLA")
+    sc.add_argument("--expiration-days", type=int, default=5)
     sc.add_argument("--min-otm-pct", type=float, default=0.00)
     sc.add_argument("--max-otm-pct", type=float, default=0.03)
-    sc.add_argument("--delta-lo", type=float, default=0.15)
-    sc.add_argument("--delta-hi", type=float, default=0.35)
+    sc.add_argument("--delta-lo", type=float, default=0.20)
+    sc.add_argument("--delta-hi", type=float, default=0.40)
     sc.add_argument("--min-bid", type=float, default=0.05)
     sc.add_argument("--min-open-interest", type=int, default=1)
     sc.add_argument("--min-volume", type=int, default=0)
@@ -339,3 +344,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
