@@ -79,14 +79,14 @@ print("✅ DuckDB S3 configuration set", flush=True)
 # 4. Test S3 access (read ONE row)
 # ------------------------------------------------------------
 
-TEST_YEAR = 2017
+TEST_YEAR = 2025
 
 # ------------------------------------------------------------
 # Configure which tickers to filter (empty list = all tickers)
 # ------------------------------------------------------------
 # Add ticker symbols you want to filter (e.g., ['SPY', 'TSLA', 'AAPL'])
 # Leave empty [] to process all tickers (slower but complete)
-TICKERS_TO_FILTER = ['JPM']  # Add your desired tickers here
+TICKERS_TO_FILTER = ['XLK']  # Add your desired tickers here
 
 # ------------------------------------------------------------
 # Configure entry days for backtesting (days_to_expiry at entry)
