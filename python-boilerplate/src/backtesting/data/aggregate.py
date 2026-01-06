@@ -79,14 +79,14 @@ print("✅ DuckDB S3 configuration set", flush=True)
 # 4. Test S3 access (read ONE row)
 # ------------------------------------------------------------
 
-TEST_YEAR = 2025
+TEST_YEAR = 2017
 
 # ------------------------------------------------------------
 # Configure which tickers to filter (empty list = all tickers)
 # ------------------------------------------------------------
 # Add ticker symbols you want to filter (e.g., ['SPY', 'TSLA', 'AAPL'])
 # Leave empty [] to process all tickers (slower but complete)
-TICKERS_TO_FILTER = ['AMZN']  # Add your desired tickers here
+TICKERS_TO_FILTER = ['XLF']  # Add your desired tickers here
 
 # ------------------------------------------------------------
 # Configure entry days for backtesting (days_to_expiry at entry)
@@ -96,8 +96,8 @@ TICKERS_TO_FILTER = ['AMZN']  # Add your desired tickers here
 # Set to None to include all days (not recommended for backtesting)
 # Weekly options: enter on Monday with exactly 5 days to expiry (one row per contract)
 # Monthly options: typically enter 20-30 days before expiration
-WEEKLY_ENTRY_DAYS_RANGE = 5  # Weekly options: enter Monday with exactly 5 days to expiry
-MONTHLY_ENTRY_DAYS_RANGE = (28, 32)  # Enter monthly options 28-32 days before expiration
+WEEKLY_ENTRY_DAYS_RANGE = None  # Weekly options: enter Monday with exactly 5 days to expiry
+MONTHLY_ENTRY_DAYS_RANGE = None  # Enter monthly options 28-32 days before expiration
 
 if TICKERS_TO_FILTER:
     print(f"🎯 Filtering for tickers: {', '.join(TICKERS_TO_FILTER)}", flush=True)
@@ -483,7 +483,10 @@ print(f"   [{datetime.now().strftime('%H:%M:%S')}] ✅ Filtered from {rows_befor
 if rows_after == 0:
     print(f"   [{datetime.now().strftime('%H:%M:%S')}] ⚠️  WARNING: No rows match entry day criteria!", flush=True)
     if WEEKLY_ENTRY_DAYS_RANGE:
-        print(f"   [{datetime.now().strftime('%H:%M:%S')}]    Weekly: entry at exactly {WEEKLY_ENTRY_DAYS_RANGE[0]} days", flush=True)
+        if isinstance(WEEKLY_ENTRY_DAYS_RANGE, tuple):
+            print(f"   [{datetime.now().strftime('%H:%M:%S')}]    Weekly range: {WEEKLY_ENTRY_DAYS_RANGE}", flush=True)
+        else:
+            print(f"   [{datetime.now().strftime('%H:%M:%S')}]    Weekly: entry at exactly {WEEKLY_ENTRY_DAYS_RANGE} days", flush=True)
     if MONTHLY_ENTRY_DAYS_RANGE:
         print(f"   [{datetime.now().strftime('%H:%M:%S')}]    Monthly range: {MONTHLY_ENTRY_DAYS_RANGE}", flush=True)
 
