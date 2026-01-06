@@ -79,14 +79,14 @@ print("✅ DuckDB S3 configuration set", flush=True)
 # 4. Test S3 access (read ONE row)
 # ------------------------------------------------------------
 
-TEST_YEAR = 2019
+TEST_YEAR = 2017
 
 # ------------------------------------------------------------
 # Configure which tickers to filter (empty list = all tickers)
 # ------------------------------------------------------------
 # Add ticker symbols you want to filter (e.g., ['SPY', 'TSLA', 'AAPL'])
 # Leave empty [] to process all tickers (slower but complete)
-TICKERS_TO_FILTER = ['TSLA']  # Add your desired tickers here
+TICKERS_TO_FILTER = ['JPM']  # Add your desired tickers here
 
 # ------------------------------------------------------------
 # Configure entry days for backtesting (days_to_expiry at entry)
@@ -97,7 +97,7 @@ TICKERS_TO_FILTER = ['TSLA']  # Add your desired tickers here
 # Weekly options: enter on Monday with exactly 5 days to expiry (one row per contract)
 # Monthly options: typically enter 20-30 days before expiration
 WEEKLY_ENTRY_DAYS_RANGE = 5  # Weekly options: enter Monday with exactly 5 days to expiry
-MONTHLY_ENTRY_DAYS_RANGE = (20, 22)  # Enter monthly options 20-22 days before expiration
+MONTHLY_ENTRY_DAYS_RANGE = (28, 32)  # Enter monthly options 28-32 days before expiration
 
 if TICKERS_TO_FILTER:
     print(f"🎯 Filtering for tickers: {', '.join(TICKERS_TO_FILTER)}", flush=True)

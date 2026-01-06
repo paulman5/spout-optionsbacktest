@@ -618,25 +618,22 @@ def calculate_pnl(
     Calculate P&L for a covered call strategy.
     
     Args:
-        entry_price: Underlying price when call was sold (entry day) in dollars
-        strike: Strike price of the call (in cents, e.g., 2300.0 = $23.00)
+        entry_price: Underlying price when call was sold (entry day)
+        strike: Strike price of the call
         premium_collected: Premium received for selling the call
-        expiration_price: Underlying price at expiration in dollars
+        expiration_price: Underlying price at expiration
     
     Returns:
         Tuple of (pnl_per_share, was_assigned)
     """
-    # Convert strike from cents to dollars (2300.0 -> 23.00)
-    strike_dollars = strike / 100.0
-    
-    if expiration_price <= strike_dollars:
+    if expiration_price <= strike:
         # Not assigned: keep the premium
         pnl = premium_collected
         assigned = False
     else:
         # Assigned: premium + (strike - entry_price)
         # This is the gain from selling at strike vs entry price
-        pnl = premium_collected + (strike_dollars - entry_price)
+        pnl = premium_collected + (strike - entry_price)
         assigned = True
     
     return pnl, assigned
@@ -743,28 +740,17 @@ def backtest_covered_calls(
         for _, row in exp_group.iterrows():
             entry_date = row['date_only']
             strike = float(row['strike'])
-            # Option prices are stored in cents, convert to dollars (103.0 -> $1.03)
-            premium_collected = float(row['close_price']) / 100.0  # Premium at entry in dollars
+            premium_collected = float(row['close_price'])  # Premium at entry
             volume = int(row['volume'])
             
-            # Use actual underlying price at entry if available (from merged data)
-            if 'underlying_spot' in row and pd.notna(row['underlying_spot']):
-                entry_underlying = float(row['underlying_spot'])
-            elif 'underlying_close' in row and pd.notna(row['underlying_close']):
-                entry_underlying = float(row['underlying_close'])
-            else:
-                # Fallback: estimate underlying price at entry
-                entry_underlying = strike + premium_collected  # Rough estimate
-                print(f"⚠️  Warning: No underlying price for {row.get('ticker', 'unknown')} on {entry_date}, using estimate")
+            # Estimate underlying price at entry
+            # For covered calls: underlying ≈ strike + premium (rough approximation for OTM)
+            # Better: we should have actual underlying price data
+            # For now, use a simple approximation
+            entry_underlying = strike + premium_collected  # Rough estimate
             
-            # Get underlying price at expiration (use actual if available)
-            if 'underlying_spot_at_expiry' in row and pd.notna(row['underlying_spot_at_expiry']):
-                expiration_price = float(row['underlying_spot_at_expiry'])
-            elif 'underlying_close_at_expiry' in row and pd.notna(row['underlying_close_at_expiry']):
-                expiration_price = float(row['underlying_close_at_expiry'])
-            else:
-                # Fallback: try to get from expiration day data
-                expiration_price = get_underlying_price_at_expiration(df, symbol, exp_date_str)
+            # Get underlying price at expiration
+            expiration_price = get_underlying_price_at_expiration(df, symbol, exp_date_str)
             
             if expiration_price is None:
                 # If we don't have expiration day data, skip this trade

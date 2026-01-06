@@ -1,67 +1,73 @@
 """
-Script to merge historical stock prices with options data.
+Merge historical stock prices with options data.
 
-This script loads the historical stock price CSV and merges it with
-both weekly and monthly options datasets.
+This script loads options data and merges it with historical stock prices
+from a CSV file, using pessimistic scenario (HIGH prices).
 """
 
 import sys
-import os
+import pandas as pd
 from pathlib import Path
+import importlib.util
 
-# Add parent directory to path to import backtest module
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Import monthly.py functions
+monthly_path = Path(__file__).parent / "weekly-monthly" / "monthly.py"
+spec = importlib.util.spec_from_file_location("monthly", monthly_path)
+monthly = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(monthly)
 
-from backtesting.backtest import load_options_data, add_underlying_prices_from_csv
+load_options_data = monthly.load_options_data
+add_underlying_prices_from_csv = monthly.add_underlying_prices_from_csv
+
 
 def main():
-    # Paths
-    base_dir = Path(__file__).parent.parent.parent / "data" / "TSLA"
-    stock_csv = base_dir / "HistoricalData_1767476795814.csv"
+    import argparse
     
-    weekly_options = base_dir / "monthly" / "options_day_aggs_2019_weekly.csv"
-    monthly_options = base_dir / "weekly" / "options_day_aggs_2019_monthly.csv"
+    parser = argparse.ArgumentParser(description="Merge stock prices with options data")
+    parser.add_argument("--options-file", required=True, help="Path to options CSV file")
+    parser.add_argument("--stock-file", required=True, help="Path to historical stock prices CSV")
+    parser.add_argument("--symbol", default="TSLA", help="Underlying symbol")
+    parser.add_argument("--output-file", required=True, help="Output CSV file path")
+    parser.add_argument("--pessimistic", action="store_true", default=True,
+                       help="Use pessimistic scenario (HIGH prices)")
     
-    # Output paths (pessimistic scenario - using HIGH prices)
-    weekly_output = base_dir / "monthly" / "options_day_aggs_2019_weekly_with_prices_pessimistic.csv"
-    monthly_output = base_dir / "weekly" / "options_day_aggs_2019_monthly_with_prices_pessimistic.csv"
+    args = parser.parse_args()
     
-    print("🔄 Merging stock prices with options data...\n")
+    print("=" * 80)
+    print("MERGING STOCK PRICES WITH OPTIONS DATA")
+    print("=" * 80)
+    print(f"  Options file: {args.options_file}")
+    print(f"  Stock file: {args.stock_file}")
+    print(f"  Symbol: {args.symbol}")
+    print(f"  Output file: {args.output_file}")
+    print(f"  Pessimistic: {args.pessimistic}")
     
-    # Process weekly options
-    if weekly_options.exists():
-        print(f"📊 Processing weekly options: {weekly_options.name}")
-        print(f"   Loading options data...")
-        df_weekly = load_options_data(str(weekly_options))
-        print(f"   Loaded {len(df_weekly):,} rows")
-        
-        print(f"   Merging with stock prices (pessimistic scenario: using HIGH prices)...")
-        df_weekly = add_underlying_prices_from_csv(df_weekly, str(stock_csv), symbol='TSLA', use_pessimistic=True)
-        
-        print(f"   Saving to {weekly_output.name}...")
-        df_weekly.to_csv(weekly_output, index=False)
-        print(f"✅ Saved {len(df_weekly):,} rows to {weekly_output}\n")
-    else:
-        print(f"⚠️  Weekly options file not found: {weekly_options}\n")
+    # Load options data
+    print("\n📊 Loading options data...")
+    df = load_options_data(args.options_file)
+    print(f"   Loaded {len(df):,} options")
     
-    # Process monthly options
-    if monthly_options.exists():
-        print(f"📊 Processing monthly options: {monthly_options.name}")
-        print(f"   Loading options data...")
-        df_monthly = load_options_data(str(monthly_options))
-        print(f"   Loaded {len(df_monthly):,} rows")
-        
-        print(f"   Merging with stock prices (pessimistic scenario: using HIGH prices)...")
-        df_monthly = add_underlying_prices_from_csv(df_monthly, str(stock_csv), symbol='TSLA', use_pessimistic=True)
-        
-        print(f"   Saving to {monthly_output.name}...")
-        df_monthly.to_csv(monthly_output, index=False)
-        print(f"✅ Saved {len(df_monthly):,} rows to {monthly_output}\n")
-    else:
-        print(f"⚠️  Monthly options file not found: {monthly_options}\n")
+    # Add underlying prices
+    print("\n📈 Adding underlying stock prices...")
+    df = add_underlying_prices_from_csv(
+        df,
+        args.stock_file,
+        symbol=args.symbol,
+        use_pessimistic=args.pessimistic
+    )
     
-    print("✅ Done!")
+    # Save merged data
+    print(f"\n💾 Saving merged data to {args.output_file}...")
+    output_path = Path(args.output_file)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(args.output_file, index=False)
+    
+    print(f"✅ Saved {len(df):,} rows to {args.output_file}")
+
 
 if __name__ == "__main__":
     main()
+
+
+
 
