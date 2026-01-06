@@ -86,7 +86,7 @@ TEST_YEAR = 2025
 # ------------------------------------------------------------
 # Add ticker symbols you want to filter (e.g., ['SPY', 'TSLA', 'AAPL'])
 # Leave empty [] to process all tickers (slower but complete)
-TICKERS_TO_FILTER = ['XLK']  # Add your desired tickers here
+TICKERS_TO_FILTER = ['AMZN']  # Add your desired tickers here
 
 # ------------------------------------------------------------
 # Configure entry days for backtesting (days_to_expiry at entry)
