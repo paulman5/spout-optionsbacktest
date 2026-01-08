@@ -1,1 +1,139 @@
-html { height: 100%; }
+html { 
+  height: 100%; 
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#csvFile {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#tableContainer {
+  overflow-x: auto;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: white;
+  z-index: 10;
+}
+
+th {
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+  border: 1px solid #555;
+  background-color: #333;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+/* Column color classes for better distinction */
+.strike-price {
+  background-color: #e3f2fd !important;
+  color: #1565c0 !important;
+  font-weight: bold;
+  border-left: 3px solid #1976d2 !important;
+  border-right: 3px solid #1976d2 !important;
+}
+
+.strike-header {
+  background-color: #1976d2 !important;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.premium {
+  background-color: #fff3e0 !important;
+  color: #e65100 !important;
+  font-weight: bold;
+}
+
+.premium-header {
+  background-color: #f57c00 !important;
+  color: #ffffff !important;
+}
+
+.volume {
+  background-color: #f1f8e9 !important;
+  color: #33691e !important;
+}
+
+.volume-header {
+  background-color: #689f38 !important;
+  color: #ffffff !important;
+}
+
+.price {
+  background-color: #fce4ec !important;
+  color: #880e4f !important;
+}
+
+.price-header {
+  background-color: #c2185b !important;
+  color: #ffffff !important;
+}
+
+.yield {
+  background-color: #f3e5f5 !important;
+  color: #4a148c !important;
+}
+
+.yield-header {
+  background-color: #7b1fa2 !important;
+  color: #ffffff !important;
+}
+
+.otm {
+  background-color: #e0f2f1 !important;
+  color: #004d40 !important;
+}
+
+.otm-header {
+  background-color: #00695c !important;
+  color: #ffffff !important;
+}
