@@ -56,11 +56,26 @@ def implied_volatility_call(C, S, K, T, r, tol=0.000000001,
     :param max_iterations: max iterations to update vol
     :return: implied volatility in percent
     '''
-
+    
+    # Use relative tolerance for better convergence with small prices
+    # For OTM options with small C, absolute tolerance is too strict
+    relative_tol = max(tol, C * 1e-6)  # At least 1e-6 relative to price
 
     ### assigning initial volatility estimate for input in Newton_rap procedure
     ### brenner formula for initial estimate of volatility
     sigma = math.sqrt(2 * math.pi / T) * (C / S)
+    
+    # For OTM options, improve initial estimate
+    # If S < K (OTM), use a better approximation
+    if S < K:
+        # For OTM: use moneyness-adjusted estimate
+        moneyness = S / K
+        # Adjust initial guess: deeper OTM needs higher vol to justify price
+        sigma = max(sigma, math.sqrt(-2 * math.log(moneyness) / T) * 0.5)
+    
+    # Ensure initial guess is reasonable
+    sigma = max(sigma, 0.01)  # At least 1%
+    sigma = min(sigma, 5.0)   # Cap at 500%
 
     for i in range(max_iterations):
 
@@ -69,15 +84,42 @@ def implied_volatility_call(C, S, K, T, r, tol=0.000000001,
         diff = black_scholes_call(S, K, T, r, sigma) - C
 
         ###break if difference is less than specified tolerance level
-        if abs(diff) < tol:
-            print(f'found on {i}th iteration')
-            print(f'difference is equal to {diff}')
+        if abs(diff) < relative_tol:
+            if __name__ == "__main__":
+                print(f'found on {i}th iteration')
+                print(f'difference is equal to {diff}')
             break
 
         ### use newton rapshon to update the estimate
-        sigma = sigma - diff / vega(S, K, T, r, sigma)
+        v = vega(S, K, T, r, sigma)
+        
+        # Handle zero or very small vega (common for deep OTM)
+        if abs(v) < 1e-10:
+            # Vega too small - use bisection-like step
+            # Try a small fixed step in the right direction
+            if diff > 0:
+                sigma = sigma * 0.9  # Price too high, reduce vol
+            else:
+                sigma = sigma * 1.1  # Price too low, increase vol
+            # Ensure bounds
+            sigma = max(sigma, 0.001)
+            sigma = min(sigma, 10.0)
+        else:
+            # Normal Newton-Raphson step
+            sigma_new = sigma - diff / v
+            
+            # Bounds checking to prevent divergence
+            if sigma_new <= 0:
+                sigma = sigma * 0.5  # Halve if goes negative
+            elif sigma_new > 10.0:
+                sigma = min(sigma * 1.1, 10.0)  # Cap at 1000%
+            else:
+                sigma = sigma_new
 
-
+    # Validate final result
+    if sigma <= 0 or np.isnan(sigma) or np.isinf(sigma) or sigma > 10.0:
+        return np.nan
+    
     return sigma
 
 
