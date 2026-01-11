@@ -1,0 +1,94 @@
+================================================================================
+FETCHING META (2016-2021) FOR HOLIDAYS FOLDER
+INCLUDING ALL WEEKS - NO 3RD FRIDAY EXCLUSION
+================================================================================
+
+📋 Loading environment variables...
+✅ Environment variables loaded
+
+🔌 Connecting to DuckDB...
+✅ DuckDB connected
+
+🌐 Enabling S3 support...
+✅ S3 support enabled
+
+📦 Loading helper functions...
+✅ Helper functions loaded
+
+🔍 Testing S3 connection...
+✅ S3 connection test successful
+
+================================================================================
+PROCESSING META 2016
+================================================================================
+
+📅 Market holidays for 2016:
+   All holidays: 9
+   Monday holidays: 6
+   Thursday holidays: 1
+   Friday holidays: 2
+
+📥 Loading data from S3 for 2016...
+   ✅ Table options_2016_META_holidays already exists with 141,768 rows
+
+🔧 Processing data for 2016...
+   Loaded 141,768 rows
+   Parsing option tickers...
+   Filtering to META only (excluding FB)...
+   ✅ Filtered from 141,768 to 0 rows (META only)
+   ⚠️  No META data for 2016, skipping...
+
+================================================================================
+PROCESSING META 2017
+================================================================================
+
+📅 Market holidays for 2017:
+   All holidays: 9
+   Monday holidays: 6
+   Thursday holidays: 1
+   Friday holidays: 1
+
+📥 Loading data from S3 for 2017...
+   ✅ Table options_2017_META_holidays already exists with 141,493 rows
+
+🔧 Processing data for 2017...
+   Loaded 141,493 rows
+   Parsing option tickers...
+   Filtering to META only (excluding FB)...
+   ✅ Filtered from 141,493 to 0 rows (META only)
+   ⚠️  No META data for 2017, skipping...
+
+================================================================================
+PROCESSING META 2018
+================================================================================
+
+📅 Market holidays for 2018:
+   All holidays: 9
+   Monday holidays: 5
+   Thursday holidays: 1
+   Friday holidays: 1
+
+📥 Loading data from S3 for 2018...
+   ✅ Table options_2018_META_holidays already exists with 186,964 rows
+
+🔧 Processing data for 2018...
+   Loaded 186,964 rows
+   Parsing option tickers...
+   Filtering to META only (excluding FB)...
+   ✅ Filtered from 186,964 to 0 rows (META only)
+   ⚠️  No META data for 2018, skipping...
+
+================================================================================
+PROCESSING META 2019
+================================================================================
+
+📅 Market holidays for 2019:
+   All holidays: 9
+   Monday holidays: 4
+   Thursday holidays: 2
+   Friday holidays: 1
+
+📥 Loading data from S3 for 2019...
+   🔍 Finding files for 2019...
+   ✅ Found 252 files
+   ⏳ Reading and aggregating files (filtering for FB/META)...

@@ -1,0 +1,172 @@
+#!/usr/bin/env python3
+"""
+Fix strike prices for 2020 (on/after Aug 31) and 2021:
+- On/After Aug 31, 2020: strike = raw_strike / 1000 (not / 1000 / 4)
+- Recalculate IV and probability ITM after fixing strikes
+"""
+
+import sys
+import pandas as pd
+import numpy as np
+from pathlib import Path
+from datetime import date
+from dotenv import load_dotenv
+import importlib.util
+import re
+
+# Force unbuffered output
+sys.stdout.reconfigure(line_buffering=True)
+sys.stderr.reconfigure(line_buffering=True)
+
+# Load environment variables
+load_dotenv()
+
+# Get base path
+base_path = Path(__file__).parent.parent.parent.parent
+
+# Import helper functions
+greeks2_path = Path(__file__).parent.parent / "greeks2.py"
+spec = importlib.util.spec_from_file_location("greeks2", greeks2_path)
+greeks2 = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(greeks2)
+
+implied_volatility_call = greeks2.implied_volatility_call
+probability_itm = greeks2.probability_itm
+
+TICKER = 'AAPL'
+CUTOFF_DATE = date(2020, 8, 31)
+
+def parse_strike_from_ticker(ticker: str, entry_date: date):
+    """Parse strike from ticker, applying correct division based on date."""
+    try:
+        if ticker.startswith('O:'):
+            ticker = ticker[2:]
+        
+        match = re.match(r'([A-Z]+)(\d{6})([CP])(\d+)', ticker)
+        if not match:
+            return None
+        
+        strike_str = match.group(4)
+        strike_raw = float(strike_str) / 1000.0
+        
+        if entry_date >= CUTOFF_DATE:
+            # On/After Aug 31, 2020: just divide by 1000
+            return strike_raw
+        else:
+            # Before Aug 31, 2020: divide by 1000, then by 4
+            return strike_raw / 4.0
+    except:
+        return None
+
+for year in [2020, 2021]:
+    print(f"\n{'='*80}")
+    print(f"FIXING STRIKES AND RECALCULATING IV/PROB ITM FOR {year}")
+    print(f"{'='*80}")
+    
+    file_path = base_path / "data" / TICKER / "holidays" / f"{year}_options_pessimistic.csv"
+    
+    if not file_path.exists():
+        print(f"❌ File not found: {file_path}")
+        continue
+    
+    print(f"\n📖 Loading {file_path}...")
+    df = pd.read_csv(file_path)
+    print(f"   Loaded {len(df):,} rows")
+    
+    # Convert date_only to date objects
+    df['date_only'] = pd.to_datetime(df['date_only']).dt.date
+    
+    # Fix strikes based on entry date
+    print(f"\n🔧 Fixing strike prices...")
+    print(f"   Cutoff date: {CUTOFF_DATE} (on/after this date: divide by 1000 only)")
+    
+    strikes_before = df['strike'].copy()
+    
+    def fix_strike(row):
+        entry_date = row['date_only']
+        ticker = row['ticker']
+        new_strike = parse_strike_from_ticker(ticker, entry_date)
+        return new_strike if new_strike is not None else row['strike']
+    
+    df['strike'] = df.apply(fix_strike, axis=1)
+    
+    # Check how many changed
+    changed = (strikes_before != df['strike']).sum()
+    print(f"   ✅ Updated {changed:,} strikes ({changed/len(df)*100:.1f}%)")
+    
+    if changed > 0:
+        print(f"   Strike range before: {strikes_before.min():.2f} - {strikes_before.max():.2f}")
+        print(f"   Strike range after: {df['strike'].min():.2f} - {df['strike'].max():.2f}")
+    
+    # Recalculate otm_pct
+    print(f"\n🔧 Recalculating otm_pct...")
+    df['otm_pct'] = ((df['strike'] - df['underlying_spot']) / df['underlying_spot'] * 100).round(2)
+    
+    # Recalculate IV and probability ITM
+    print(f"\n📊 Calculating implied volatility and probability ITM...")
+    
+    # Ensure required columns
+    if 'fedfunds_rate' not in df.columns or df['fedfunds_rate'].isna().all():
+        df['fedfunds_rate'] = 0.02
+    
+    df['T'] = df['days_to_expiry'] / 365.0
+    
+    def calc_iv_prob(row):
+        try:
+            C = row['close_price']
+            S = row['underlying_spot']
+            K = row['strike']
+            T = row['T']
+            r = row['fedfunds_rate'] if pd.notna(row['fedfunds_rate']) else 0.02
+            
+            if pd.isna(C) or pd.isna(S) or pd.isna(K) or pd.isna(T) or C <= 0 or S <= 0 or K <= 0 or T <= 0:
+                return np.nan, np.nan
+            
+            iv = implied_volatility_call(C, S, K, T, r)
+            if pd.isna(iv) or iv <= 0:
+                return np.nan, np.nan
+            
+            prob = probability_itm(S, K, T, r, iv)
+            return iv, prob
+        except:
+            return np.nan, np.nan
+    
+    iv_prob = df.apply(calc_iv_prob, axis=1)
+    df['implied_volatility'] = [x[0] for x in iv_prob]
+    df['probability_itm'] = [x[1] for x in iv_prob]
+    df = df.drop(columns=['T'])
+    
+    # Round: 4 decimals for IV & prob_itm, 2 for others
+    df['implied_volatility'] = df['implied_volatility'].round(4)
+    df['probability_itm'] = df['probability_itm'].round(4)
+    df['otm_pct'] = df['otm_pct'].round(2)
+    
+    # Check results
+    iv_nulls = df['implied_volatility'].isna().sum()
+    prob_nulls = df['probability_itm'].isna().sum()
+    iv_valid = df['implied_volatility'].notna().sum()
+    prob_valid = df['probability_itm'].notna().sum()
+    
+    print(f"\n   Results:")
+    print(f"   IV nulls: {iv_nulls}/{len(df)} ({iv_nulls/len(df)*100:.1f}%)")
+    print(f"   Prob ITM nulls: {prob_nulls}/{len(df)} ({prob_nulls/len(df)*100:.1f}%)")
+    print(f"   ✅ IV valid: {iv_valid:,} ({iv_valid/len(df)*100:.1f}%)")
+    print(f"   ✅ Prob ITM valid: {prob_valid:,} ({prob_valid/len(df)*100:.1f}%)")
+    
+    if iv_valid > 0:
+        print(f"   IV range: {df['implied_volatility'].min():.4f} - {df['implied_volatility'].max():.4f}")
+    if prob_valid > 0:
+        print(f"   Prob ITM range: {df['probability_itm'].min():.4f} - {df['probability_itm'].max():.4f}")
+    
+    # Convert date_only back to string for CSV
+    df['date_only'] = df['date_only'].astype(str)
+    
+    # Save
+    print(f"\n💾 Saving to {file_path}...")
+    df.to_csv(file_path, index=False)
+    print(f"   ✅ Saved!")
+    
+print(f"\n{'='*80}")
+print("✅ COMPLETE!")
+print(f"{'='*80}")
+

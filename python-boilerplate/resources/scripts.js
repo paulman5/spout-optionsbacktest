@@ -108,4 +108,3 @@ function parseCSVLine(line) {
   values.push(current);
   return values;
 }
-

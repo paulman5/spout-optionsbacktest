@@ -71,12 +71,21 @@ def add_premium_columns(df: pd.DataFrame) -> pd.DataFrame:
     # ITM: YES if strike < spot (negative otm_pct), NO otherwise
     df['ITM'] = (df['strike'] < df['underlying_spot']).map({True: 'YES', False: 'NO'})
     
-    # Premium in cents (close_price is already in cents)
-    df['premium'] = df['close_price']
+    # Premium using mid_price: (high_price + low_price) / 2
+    # If mid_price column doesn't exist, calculate it
+    if 'mid_price' not in df.columns:
+        if 'high_price' in df.columns and 'low_price' in df.columns:
+            df['mid_price'] = (df['high_price'] + df['low_price']) / 2.0
+        else:
+            # Fallback to close_price if mid_price can't be calculated
+            df['mid_price'] = df['close_price']
     
-    # Premium yield as percentage: (close_price / underlying_spot) * 100
-    # close_price is already in dollars per share, underlying_spot is in dollars
-    df['premium_yield_pct'] = (df['close_price'] / df['underlying_spot'] * 100).round(2)
+    # Premium in dollars (mid_price is already in dollars per share)
+    df['premium'] = df['mid_price']
+    
+    # Premium yield as percentage: (mid_price / underlying_spot) * 100
+    # mid_price is already in dollars per share, underlying_spot is in dollars
+    df['premium_yield_pct'] = (df['mid_price'] / df['underlying_spot'] * 100).round(2)
     
     # Premium low in dollars (low_price is already in dollars per share)
     df['premium_low'] = df['low_price']
