@@ -1,0 +1,578 @@
+================================================================================
+MERGING HISTORICAL STOCK DATA WITH MONTHLY OPTIONS FILES
+================================================================================
+Found 43 ticker directories
+
+Processing AAPL...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,551/1,551 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,393/1,393 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,591/1,591 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,758/1,758 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 3,887/3,887 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,572/2,572 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 2,261/2,261 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 1,847/1,847 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 2,193/2,193 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 2,297/2,297 rows with underlying prices
+   ✅ AAPL: 10 files, 21,350 rows
+
+Processing ADBE...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,006/1,006 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,451/1,451 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 2,579/2,579 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 2,649/2,649 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 4,276/4,276 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 4,477/4,477 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 5,037/5,037 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 4,770/4,770 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 4,980/4,980 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 4,187/4,187 rows with underlying prices
+   ✅ ADBE: 10 files, 35,412 rows
+
+Processing AMAT...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 983/983 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,820/1,820 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,972/1,972 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,624/1,624 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,125/2,125 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,769/2,769 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 2,641/2,641 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,284/2,284 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 2,446/2,446 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 2,233/2,233 rows with underlying prices
+   ✅ AMAT: 10 files, 20,897 rows
+
+Processing AMD...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 712/712 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,526/1,526 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 2,291/2,291 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 2,958/2,958 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 3,872/3,872 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 4,289/4,289 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 3,752/3,752 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 3,526/3,526 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 4,262/4,262 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 4,198/4,198 rows with underlying prices
+   ✅ AMD: 10 files, 31,386 rows
+
+Processing AMZN...
+   Processing 9 monthly files...
+     ✓ 2016_options_pessimistic.csv: 3,346/3,346 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 3,328/3,328 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 6,717/6,717 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 5,946/5,946 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 8,026/8,026 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 6,744/6,744 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,649/2,649 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 2,210/2,210 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 2,400/2,400 rows with underlying prices
+   ✅ AMZN: 9 files, 41,366 rows
+
+Processing AVGO...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,413/1,413 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,481/1,481 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,711/1,711 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,825/1,825 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,114/2,114 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,449/2,449 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 3,070/3,070 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 4,364/4,364 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 7,522/7,522 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 4,715/4,715 rows with underlying prices
+   ✅ AVGO: 10 files, 30,664 rows
+
+Processing COIN...
+   ⚠️  COIN: No files processed
+
+Processing COST...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,254/1,254 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,773/1,773 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,719/1,719 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,994/1,994 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 3,011/3,011 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 3,162/3,162 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 4,663/4,663 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 3,920/3,920 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 5,414/5,414 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 5,556/5,556 rows with underlying prices
+   ✅ COST: 10 files, 32,466 rows
+
+Processing CRCL...
+   ⚠️  CRCL: No files processed
+
+Processing CRM...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,885/1,885 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,679/1,679 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,990/1,990 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,883/1,883 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,409/2,409 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,559/2,559 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 2,898/2,898 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,389/2,389 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 2,424/2,424 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 2,387/2,387 rows with underlying prices
+   ✅ CRM: 10 files, 22,503 rows
+
+Processing CRWD...
+   Processing 10 monthly files...
+     ❌ 2016_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2017_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2018_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ✓ 2019_options_pessimistic.csv: 938/938 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,363/2,363 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,841/2,841 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 3,000/3,000 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,552/2,552 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 3,428/3,428 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 3,568/3,568 rows with underlying prices
+   ✅ CRWD: 7 files, 18,690 rows
+
+Processing CSCO...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,231/1,231 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,326/1,326 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,880/1,880 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,728/1,728 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,103/2,103 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,015/2,015 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 1,828/1,828 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 1,409/1,409 rows with underlying prices
+     ❌ 2024_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ✓ 2025_options_pessimistic.csv: 1,537/1,537 rows with underlying prices
+   ✅ CSCO: 9 files, 15,057 rows
+
+Processing GOOG...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 2,101/2,101 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,951/1,951 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 2,997/2,997 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 2,425/2,425 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 3,133/3,133 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,531/2,531 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 3,870/3,870 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,104/2,104 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 1,518/1,518 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 1,980/1,980 rows with underlying prices
+   ✅ GOOG: 10 files, 24,610 rows
+
+Processing HOOD...
+   Processing 5 monthly files...
+     ✓ 2021_options_pessimistic.csv: 921/921 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 1,237/1,237 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 714/714 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 1,691/1,691 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 2,237/2,237 rows with underlying prices
+   ✅ HOOD: 5 files, 6,800 rows
+
+Processing INTC...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,590/1,590 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,561/1,561 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 2,225/2,225 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,862/1,862 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,568/2,568 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,705/2,705 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 2,578/2,578 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,782/2,782 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 3,268/3,268 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 3,310/3,310 rows with underlying prices
+   ✅ INTC: 10 files, 24,449 rows
+
+Processing IWM...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 2,286/2,286 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 2,322/2,322 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 2,514/2,514 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 2,351/2,351 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 3,391/3,391 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 3,506/3,506 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 3,644/3,644 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 3,106/3,106 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 3,631/3,631 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 3,523/3,523 rows with underlying prices
+   ✅ IWM: 10 files, 30,274 rows
+
+Processing JPM...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 888/888 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,085/1,085 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 890/890 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 729/729 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 1,203/1,203 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 1,238/1,238 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 1,206/1,206 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 1,048/1,048 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 1,203/1,203 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 1,428/1,428 rows with underlying prices
+   ✅ JPM: 10 files, 10,918 rows
+
+Processing KO...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,146/1,146 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,030/1,030 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,249/1,249 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,121/1,121 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 1,678/1,678 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 1,506/1,506 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 1,549/1,549 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 1,256/1,256 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 1,246/1,246 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 1,457/1,457 rows with underlying prices
+   ✅ KO: 10 files, 13,238 rows
+
+Processing LQD...
+   Processing 2 monthly files...
+     ✓ 2016_options_pessimistic.csv: 362/362 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 275/275 rows with underlying prices
+   ✅ LQD: 2 files, 637 rows
+
+Processing LRCX...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 629/629 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,184/1,184 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,920/1,920 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,876/1,876 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,834/2,834 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 4,227/4,227 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 4,385/4,385 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 4,506/4,506 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 5,078/5,078 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 2,635/2,635 rows with underlying prices
+   ✅ LRCX: 10 files, 29,274 rows
+
+Processing META...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,500/1,500 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,359/1,359 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,570/1,570 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,478/1,478 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,517/2,517 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,974/2,974 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 1,199/1,199 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 3,199/3,199 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 4,656/4,656 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 5,158/5,158 rows with underlying prices
+   ✅ META: 10 files, 25,610 rows
+
+Processing MRK...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,124/1,124 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,032/1,032 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,277/1,277 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,496/1,496 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 1,813/1,813 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 1,905/1,905 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 1,868/1,868 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 1,480/1,480 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 1,447/1,447 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 1,531/1,531 rows with underlying prices
+   ✅ MRK: 10 files, 14,973 rows
+
+Processing MSFT...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,054/1,054 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 971/971 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,315/1,315 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,177/1,177 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 1,865/1,865 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,405/2,405 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 2,412/2,412 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,583/2,583 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 2,893/2,893 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 2,875/2,875 rows with underlying prices
+   ✅ MSFT: 10 files, 19,550 rows
+
+Processing MU...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,264/1,264 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 2,497/2,497 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 3,397/3,397 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 3,041/3,041 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,615/2,615 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 3,342/3,342 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 3,001/3,001 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,422/2,422 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 3,510/3,510 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 3,571/3,571 rows with underlying prices
+   ✅ MU: 10 files, 28,660 rows
+
+Processing NFLX...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 3,434/3,434 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 2,761/2,761 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 5,650/5,650 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 5,263/5,263 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 7,019/7,019 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 6,441/6,441 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 7,446/7,446 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 6,611/6,611 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 7,868/7,868 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 8,483/8,483 rows with underlying prices
+   ✅ NFLX: 10 files, 60,976 rows
+
+Processing NVDA...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,018/1,018 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,649/1,649 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 2,141/2,141 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,648/1,648 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 3,938/3,938 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 4,846/4,846 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 3,209/3,209 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 5,264/5,264 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 10,023/10,023 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 5,081/5,081 rows with underlying prices
+   ✅ NVDA: 10 files, 38,817 rows
+
+Processing ORCL...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,147/1,147 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,372/1,372 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,535/1,535 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,224/1,224 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 1,478/1,478 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,160/2,160 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 1,992/1,992 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,073/2,073 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 2,214/2,214 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 3,320/3,320 rows with underlying prices
+   ✅ ORCL: 10 files, 18,515 rows
+
+Processing PLTR...
+   Processing 10 monthly files...
+     ❌ 2016_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2017_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2018_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2019_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ✓ 2020_options_pessimistic.csv: 715/715 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 3,702/3,702 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 2,293/2,293 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,377/2,377 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 4,052/4,052 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 5,337/5,337 rows with underlying prices
+   ✅ PLTR: 6 files, 18,476 rows
+
+Processing QCOM...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,685/1,685 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,453/1,453 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,528/1,528 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,983/1,983 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,406/2,406 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,601/2,601 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 3,160/3,160 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,222/2,222 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 2,425/2,425 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 1,942/1,942 rows with underlying prices
+   ✅ QCOM: 10 files, 21,405 rows
+
+Processing QQQ...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 405/405 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 642/642 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 978/978 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 908/908 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 1,809/1,809 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 1,698/1,698 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 1,918/1,918 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 1,642/1,642 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 1,085/1,085 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 999/999 rows with underlying prices
+   ✅ QQQ: 10 files, 12,084 rows
+
+Processing SMCI...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 148/148 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 97/97 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 137/137 rows with underlying prices
+     ❌ 2019_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ✓ 2020_options_pessimistic.csv: 50/50 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 75/75 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 537/537 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,937/2,937 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 8,765/8,765 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 5,526/5,526 rows with underlying prices
+   ✅ SMCI: 9 files, 18,272 rows
+
+Processing SOFI...
+   Processing 10 monthly files...
+     ❌ 2016_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2017_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2018_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2019_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2020_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2021_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2022_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ✓ 2023_options_pessimistic.csv: 1,548/1,548 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 1,659/1,659 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 3,107/3,107 rows with underlying prices
+   ✅ SOFI: 3 files, 6,314 rows
+
+Processing SPOT...
+   Processing 10 monthly files...
+     ❌ 2016_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2017_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ✓ 2018_options_pessimistic.csv: 1,247/1,247 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,442/1,442 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,178/2,178 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,285/2,285 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 1,929/1,929 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 1,868/1,868 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 2,116/2,116 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 3,086/3,086 rows with underlying prices
+   ✅ SPOT: 8 files, 16,151 rows
+
+Processing SPY...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 3,340/3,340 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 3,377/3,377 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 4,231/4,231 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 3,844/3,844 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 6,937/6,937 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 6,298/6,298 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 7,407/7,407 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 5,725/5,725 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 6,569/6,569 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 7,086/7,086 rows with underlying prices
+   ✅ SPY: 10 files, 54,814 rows
+
+Processing TSLA...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 844/844 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 4,724/4,724 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 2,936/2,936 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 2,449/2,449 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 8,954/8,954 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 8,855/8,855 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 7,693/7,693 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 5,460/5,460 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 4,902/4,902 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 6,201/6,201 rows with underlying prices
+   ✅ TSLA: 10 files, 53,018 rows
+
+Processing UBER...
+   Processing 10 monthly files...
+     ❌ 2016_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2017_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ❌ 2018_options_pessimistic.csv: cannot unpack non-iterable bool object
+     ✓ 2019_options_pessimistic.csv: 1,623/1,623 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 3,170/3,170 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,380/2,380 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 2,195/2,195 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,039/2,039 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 2,627/2,627 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 2,838/2,838 rows with underlying prices
+   ✅ UBER: 7 files, 16,872 rows
+
+Processing UNH...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,177/1,177 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,110/1,110 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,236/1,236 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,673/1,673 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 1,946/1,946 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 1,885/1,885 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 2,454/2,454 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,431/2,431 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 2,564/2,564 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 4,380/4,380 rows with underlying prices
+   ✅ UNH: 10 files, 20,856 rows
+
+Processing V...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,716/1,716 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,511/1,511 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,689/1,689 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,586/1,586 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,527/2,527 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,514/2,514 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 2,554/2,554 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,003/2,003 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 2,108/2,108 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 2,591/2,591 rows with underlying prices
+   ✅ V: 10 files, 20,799 rows
+
+Processing WMT...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,567/1,567 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,624/1,624 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 2,019/2,019 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,558/1,558 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,400/2,400 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,411/2,411 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 2,231/2,231 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 1,745/1,745 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 1,965/1,965 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 2,420/2,420 rows with underlying prices
+   ✅ WMT: 10 files, 19,940 rows
+
+Processing XLE...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,415/1,415 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,241/1,241 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,462/1,462 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,065/1,065 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 1,791/1,791 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 1,688/1,688 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 2,296/2,296 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 1,719/1,719 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 1,488/1,488 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 1,453/1,453 rows with underlying prices
+   ✅ XLE: 10 files, 15,618 rows
+
+Processing XLF...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 395/395 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,036/1,036 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 575/575 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 504/504 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 821/821 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 1,033/1,033 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 981/981 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 684/684 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 811/811 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 999/999 rows with underlying prices
+   ✅ XLF: 10 files, 7,839 rows
+
+Processing XLK...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 405/405 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 642/642 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 978/978 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 908/908 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 1,809/1,809 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 1,698/1,698 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 1,918/1,918 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 1,642/1,642 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 1,085/1,085 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 999/999 rows with underlying prices
+   ✅ XLK: 10 files, 12,084 rows
+
+Processing XOM...
+   Processing 10 monthly files...
+     ✓ 2016_options_pessimistic.csv: 1,944/1,944 rows with underlying prices
+     ✓ 2017_options_pessimistic.csv: 1,441/1,441 rows with underlying prices
+     ✓ 2018_options_pessimistic.csv: 1,794/1,794 rows with underlying prices
+     ✓ 2019_options_pessimistic.csv: 1,594/1,594 rows with underlying prices
+     ✓ 2020_options_pessimistic.csv: 2,430/2,430 rows with underlying prices
+     ✓ 2021_options_pessimistic.csv: 2,280/2,280 rows with underlying prices
+     ✓ 2022_options_pessimistic.csv: 2,756/2,756 rows with underlying prices
+     ✓ 2023_options_pessimistic.csv: 2,144/2,144 rows with underlying prices
+     ✓ 2024_options_pessimistic.csv: 1,808/1,808 rows with underlying prices
+     ✓ 2025_options_pessimistic.csv: 1,654/1,654 rows with underlying prices
+   ✅ XOM: 10 files, 19,845 rows
+
+================================================================================
+✅ COMPLETED
+================================================================================
+Tickers processed: 41
+Total files updated: 375
+Total rows: 951,479
+================================================================================

@@ -65,8 +65,8 @@ def add_premium_columns(df: pd.DataFrame) -> pd.DataFrame:
         except (ValueError, IndexError):
             return None
     
-    # Calculate OTM percentage - strike divided by underlying spot
-    df['otm_pct'] = ((df['strike'] / df['underlying_spot']) * 100).round(2)
+    # Calculate OTM percentage - ((strike - underlying_spot) / underlying_spot) * 100
+    df['otm_pct'] = (((df['strike'] - df['underlying_spot']) / df['underlying_spot']) * 100).round(2)
     
     # ITM: YES if strike < spot (negative otm_pct), NO otherwise
     df['ITM'] = (df['strike'] < df['underlying_spot']).map({True: 'YES', False: 'NO'})
@@ -153,6 +153,15 @@ def main():
     print(f"✅ Saved {len(df):,} rows to {args.output_file}")
     print(f"\n📊 Summary:")
     print(f"   OTM options: {(df['otm_pct'] > 0).sum():,}")
+    print(f"   ITM options: {(df['otm_pct'] < 0).sum():,}")
+    print(f"   Average premium yield: {df['premium_yield_pct'].mean():.2f}%")
+    print(f"   Average premium yield (low): {df['premium_yield_pct_low'].mean():.2f}%")
+
+
+if __name__ == "__main__":
+    main()
+
+
     print(f"   ITM options: {(df['otm_pct'] < 0).sum():,}")
     print(f"   Average premium yield: {df['premium_yield_pct'].mean():.2f}%")
     print(f"   Average premium yield (low): {df['premium_yield_pct_low'].mean():.2f}%")

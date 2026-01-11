@@ -1,0 +1,1375 @@
+================================================================================
+LOADING FEDFUNDS DATA
+================================================================================
+Loaded 858 FEDFUNDS rate entries
+
+================================================================================
+PROCESSING ALL TICKERS (HOLIDAYS, WEEKLY, MONTHLY)
+================================================================================
+Found 43 ticker directories
+
+Processing AAPL...
+   Processing 31 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 1,772/1,772 rows
+     ✓ holidays/2017_options_pessimistic.csv: 1,406/1,406 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,538/1,538 rows
+     ✓ holidays/2019_options_pessimistic.csv: 1,677/1,677 rows
+     ✓ holidays/2020_options_pessimistic.csv: 3,350/3,350 rows
+     ✓ holidays/2021_options_pessimistic.csv: 2,863/2,863 rows
+     ✓ holidays/2022_options_pessimistic.csv: 2,456/2,456 rows
+     ✓ holidays/2023_options_pessimistic.csv: 2,091/2,091 rows
+     ✓ holidays/2024_options_pessimistic.csv: 2,049/2,049 rows
+     ✓ holidays/2025_options_pessimistic.csv: 2,458/2,458 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,551/1,551 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,393/1,393 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,591/1,591 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,758/1,758 rows
+     ✓ monthly/2020_options_pessimistic.csv: 3,887/3,887 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,572/2,572 rows
+     ✓ monthly/2022_options_pessimistic.csv: 2,261/2,261 rows
+     ✓ monthly/2023_options_pessimistic.csv: 1,847/1,847 rows
+     ✓ monthly/2024_options_pessimistic.csv: 2,193/2,193 rows
+     ✓ monthly/2025_options_pessimistic.csv: 2,297/2,297 rows
+     ✓ weekly/2016_options_pessimistic.csv: 1,084/1,084 rows
+     ✓ weekly/2017_options_pessimistic.csv: 866/866 rows
+     ✓ weekly/2018_options_pessimistic.csv: 995/995 rows
+     ✓ weekly/2018_options_pessimistic_holiday_adjusted.csv: 1,538/1,538 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,137/1,137 rows
+     ✓ weekly/2020_options_pessimistic.csv: 2,031/2,031 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,743/1,743 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,498/1,498 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,270/1,270 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,349/1,349 rows
+     ✓ weekly/2025_options_pessimistic.csv: 1,571/1,571 rows
+   ✅ AAPL: 31 files, 58,092 rows
+
+Processing ADBE...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 92/92 rows
+     ✓ holidays/2017_options_pessimistic.csv: 440/440 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,133/1,133 rows
+     ✓ holidays/2019_options_pessimistic.csv: 1,154/1,154 rows
+     ✓ holidays/2020_options_pessimistic.csv: 2,129/2,129 rows
+     ✓ holidays/2021_options_pessimistic.csv: 2,020/2,020 rows
+     ✓ holidays/2022_options_pessimistic.csv: 2,264/2,264 rows
+     ✓ holidays/2023_options_pessimistic.csv: 2,143/2,143 rows
+     ✓ holidays/2024_options_pessimistic.csv: 2,438/2,438 rows
+     ✓ holidays/2025_options_pessimistic.csv: 2,442/2,442 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,006/1,006 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,451/1,451 rows
+     ✓ monthly/2018_options_pessimistic.csv: 2,579/2,579 rows
+     ✓ monthly/2019_options_pessimistic.csv: 2,649/2,649 rows
+     ✓ monthly/2020_options_pessimistic.csv: 4,276/4,276 rows
+     ✓ monthly/2021_options_pessimistic.csv: 4,477/4,477 rows
+     ✓ monthly/2022_options_pessimistic.csv: 5,037/5,037 rows
+     ✓ monthly/2023_options_pessimistic.csv: 4,770/4,770 rows
+     ✓ monthly/2024_options_pessimistic.csv: 4,980/4,980 rows
+     ✓ monthly/2025_options_pessimistic.csv: 4,187/4,187 rows
+     ⚠️  2016_options_pessimistic.csv: Failed
+     ✓ weekly/2017_options_pessimistic.csv: 550/550 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,543/1,543 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,563/1,563 rows
+     ✓ weekly/2020_options_pessimistic.csv: 2,716/2,716 rows
+     ✓ weekly/2021_options_pessimistic.csv: 2,529/2,529 rows
+     ✓ weekly/2022_options_pessimistic.csv: 2,914/2,914 rows
+     ✓ weekly/2023_options_pessimistic.csv: 2,504/2,504 rows
+     ✓ weekly/2024_options_pessimistic.csv: 2,947/2,947 rows
+     ✓ weekly/2025_options_pessimistic.csv: 2,898/2,898 rows
+   ✅ ADBE: 29 files, 71,831 rows
+
+Processing AMAT...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 346/349 rows
+     ✓ holidays/2017_options_pessimistic.csv: 818/818 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,155/1,155 rows
+     ✓ holidays/2019_options_pessimistic.csv: 969/969 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,309/1,309 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,665/1,665 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,691/1,691 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,526/1,526 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,378/1,378 rows
+     ✓ holidays/2025_options_pessimistic.csv: 1,514/1,514 rows
+     ✓ monthly/2016_options_pessimistic.csv: 983/983 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,820/1,820 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,972/1,972 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,624/1,624 rows
+     ✓ monthly/2020_options_pessimistic.csv: 2,125/2,125 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,769/2,769 rows
+     ✓ monthly/2022_options_pessimistic.csv: 2,641/2,641 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,284/2,284 rows
+     ✓ monthly/2024_options_pessimistic.csv: 2,446/2,446 rows
+     ✓ monthly/2025_options_pessimistic.csv: 2,233/2,233 rows
+     ✓ weekly/2016_options_pessimistic.csv: 366/374 rows
+     ✓ weekly/2017_options_pessimistic.csv: 904/904 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,410/1,410 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,239/1,239 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,604/1,604 rows
+     ✓ weekly/2021_options_pessimistic.csv: 2,123/2,123 rows
+     ✓ weekly/2022_options_pessimistic.csv: 2,092/2,092 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,908/1,908 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,661/1,661 rows
+     ✓ weekly/2025_options_pessimistic.csv: 2,115/2,115 rows
+   ✅ AMAT: 30 files, 48,701 rows
+
+Processing AMD...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 273/275 rows
+     ✓ holidays/2017_options_pessimistic.csv: 739/739 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,239/1,239 rows
+     ✓ holidays/2019_options_pessimistic.csv: 1,518/1,518 rows
+     ✓ holidays/2020_options_pessimistic.csv: 2,623/2,623 rows
+     ✓ holidays/2021_options_pessimistic.csv: 3,138/3,138 rows
+     ✓ holidays/2022_options_pessimistic.csv: 2,955/2,955 rows
+     ✓ holidays/2023_options_pessimistic.csv: 3,041/3,041 rows
+     ✓ holidays/2024_options_pessimistic.csv: 2,897/2,897 rows
+     ✓ holidays/2025_options_pessimistic.csv: 3,938/3,938 rows
+     ✓ monthly/2016_options_pessimistic.csv: 712/712 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,526/1,526 rows
+     ✓ monthly/2018_options_pessimistic.csv: 2,291/2,291 rows
+     ✓ monthly/2019_options_pessimistic.csv: 2,958/2,958 rows
+     ✓ monthly/2020_options_pessimistic.csv: 3,872/3,872 rows
+     ✓ monthly/2021_options_pessimistic.csv: 4,289/4,289 rows
+     ✓ monthly/2022_options_pessimistic.csv: 3,752/3,752 rows
+     ✓ monthly/2023_options_pessimistic.csv: 3,526/3,526 rows
+     ✓ monthly/2024_options_pessimistic.csv: 4,262/4,262 rows
+     ✓ monthly/2025_options_pessimistic.csv: 4,198/4,198 rows
+     ✓ weekly/2016_options_pessimistic.csv: 302/306 rows
+     ✓ weekly/2017_options_pessimistic.csv: 858/858 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,536/1,536 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,897/1,897 rows
+     ✓ weekly/2020_options_pessimistic.csv: 3,132/3,132 rows
+     ✓ weekly/2021_options_pessimistic.csv: 3,825/3,825 rows
+     ✓ weekly/2022_options_pessimistic.csv: 3,714/3,714 rows
+     ✓ weekly/2023_options_pessimistic.csv: 3,579/3,579 rows
+     ✓ weekly/2024_options_pessimistic.csv: 3,378/3,378 rows
+     ✓ weekly/2025_options_pessimistic.csv: 4,173/4,173 rows
+   ✅ AMD: 30 files, 80,147 rows
+
+Processing AMZN...
+   Processing 29 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 3,015/3,015 rows
+     ✓ holidays/2017_options_pessimistic.csv: 3,794/3,794 rows
+     ✓ holidays/2018_options_pessimistic.csv: 9,021/9,021 rows
+     ✓ holidays/2019_options_pessimistic.csv: 8,014/8,014 rows
+     ✓ holidays/2020_options_pessimistic.csv: 9,995/9,995 rows
+     ✓ holidays/2021_options_pessimistic.csv: 9,450/9,450 rows
+     ✓ holidays/2022_options_pessimistic.csv: 6,714/6,714 rows
+     ✓ holidays/2023_options_pessimistic.csv: 2,898/2,898 rows
+     ✓ holidays/2024_options_pessimistic.csv: 2,240/2,240 rows
+     ✓ holidays/2025_options_pessimistic.csv: 2,503/2,503 rows
+     ✓ monthly/2016_options_pessimistic.csv: 3,346/3,346 rows
+     ✓ monthly/2017_options_pessimistic.csv: 3,328/3,328 rows
+     ✓ monthly/2018_options_pessimistic.csv: 6,717/6,717 rows
+     ✓ monthly/2019_options_pessimistic.csv: 5,946/5,946 rows
+     ✓ monthly/2020_options_pessimistic.csv: 8,026/8,026 rows
+     ✓ monthly/2021_options_pessimistic.csv: 6,744/6,744 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,649/2,649 rows
+     ✓ monthly/2024_options_pessimistic.csv: 2,210/2,210 rows
+     ✓ monthly/2025_options_pessimistic.csv: 2,400/2,400 rows
+     ✓ weekly/2016_options_pessimistic.csv: 1,859/1,859 rows
+     ✓ weekly/2017_options_pessimistic.csv: 2,400/2,400 rows
+     ✓ weekly/2018_options_pessimistic.csv: 6,050/6,050 rows
+     ✓ weekly/2019_options_pessimistic.csv: 5,536/5,536 rows
+     ✓ weekly/2020_options_pessimistic.csv: 6,568/6,568 rows
+     ✓ weekly/2021_options_pessimistic.csv: 6,181/6,181 rows
+     ✓ weekly/2022_options_pessimistic.csv: 4,212/4,212 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,786/1,786 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,419/1,419 rows
+     ✓ weekly/2025_options_pessimistic.csv: 1,637/1,637 rows
+   ✅ AMZN: 29 files, 136,658 rows
+
+Processing AVGO...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 595/608 rows
+     ✓ holidays/2017_options_pessimistic.csv: 749/749 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,045/1,045 rows
+     ✓ holidays/2019_options_pessimistic.csv: 1,052/1,052 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,253/1,253 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,363/1,363 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,729/1,729 rows
+     ✓ holidays/2023_options_pessimistic.csv: 2,463/2,463 rows
+     ✓ holidays/2024_options_pessimistic.csv: 3,471/3,471 rows
+     ✓ holidays/2025_options_pessimistic.csv: 2,961/2,961 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,413/1,413 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,481/1,481 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,711/1,711 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,825/1,825 rows
+     ✓ monthly/2020_options_pessimistic.csv: 2,114/2,114 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,449/2,449 rows
+     ✓ monthly/2022_options_pessimistic.csv: 3,070/3,070 rows
+     ✓ monthly/2023_options_pessimistic.csv: 4,364/4,364 rows
+     ✓ monthly/2024_options_pessimistic.csv: 7,522/7,522 rows
+     ✓ monthly/2025_options_pessimistic.csv: 4,715/4,715 rows
+     ✓ weekly/2016_options_pessimistic.csv: 746/779 rows
+     ✓ weekly/2017_options_pessimistic.csv: 942/942 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,281/1,281 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,466/1,466 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,621/1,621 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,865/1,865 rows
+     ✓ weekly/2022_options_pessimistic.csv: 2,273/2,273 rows
+     ✓ weekly/2023_options_pessimistic.csv: 2,945/2,945 rows
+     ✓ weekly/2024_options_pessimistic.csv: 4,317/4,317 rows
+     ✓ weekly/2025_options_pessimistic.csv: 3,663/3,663 rows
+   ✅ AVGO: 30 files, 68,510 rows
+
+Processing COIN...
+   Processing 5 files (holidays, weekly, monthly)...
+     ✓ holidays/2021_options_pessimistic.csv: 1,840/1,840 rows
+     ✓ holidays/2022_options_pessimistic.csv: 2,952/2,952 rows
+     ✓ holidays/2023_options_pessimistic.csv: 3,356/3,356 rows
+     ✓ holidays/2024_options_pessimistic.csv: 4,011/4,011 rows
+     ✓ holidays/2025_options_pessimistic.csv: 4,513/4,513 rows
+   ✅ COIN: 5 files, 16,672 rows
+
+Processing COST...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 530/539 rows
+     ✓ holidays/2017_options_pessimistic.csv: 647/647 rows
+     ✓ holidays/2018_options_pessimistic.csv: 785/785 rows
+     ✓ holidays/2019_options_pessimistic.csv: 893/893 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,474/1,474 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,640/1,640 rows
+     ✓ holidays/2022_options_pessimistic.csv: 2,127/2,127 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,635/1,635 rows
+     ✓ holidays/2024_options_pessimistic.csv: 2,639/2,639 rows
+     ✓ holidays/2025_options_pessimistic.csv: 3,268/3,268 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,254/1,254 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,773/1,773 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,719/1,719 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,994/1,994 rows
+     ✓ monthly/2020_options_pessimistic.csv: 3,011/3,011 rows
+     ✓ monthly/2021_options_pessimistic.csv: 3,162/3,162 rows
+     ✓ monthly/2022_options_pessimistic.csv: 4,663/4,663 rows
+     ✓ monthly/2023_options_pessimistic.csv: 3,920/3,920 rows
+     ✓ monthly/2024_options_pessimistic.csv: 5,414/5,414 rows
+     ✓ monthly/2025_options_pessimistic.csv: 5,556/5,556 rows
+     ✓ weekly/2016_options_pessimistic.csv: 780/800 rows
+     ✓ weekly/2017_options_pessimistic.csv: 833/833 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,014/1,014 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,161/1,161 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,749/1,749 rows
+     ✓ weekly/2021_options_pessimistic.csv: 2,009/2,009 rows
+     ✓ weekly/2022_options_pessimistic.csv: 2,778/2,778 rows
+     ✓ weekly/2023_options_pessimistic.csv: 2,101/2,101 rows
+     ✓ weekly/2024_options_pessimistic.csv: 3,193/3,193 rows
+     ✓ weekly/2025_options_pessimistic.csv: 4,135/4,135 rows
+   ✅ COST: 30 files, 67,886 rows
+
+Processing CRCL...
+   Processing 1 files (holidays, weekly, monthly)...
+     ✓ holidays/2025_options_pessimistic.csv: 2,194/2,194 rows
+   ✅ CRCL: 1 files, 2,194 rows
+
+Processing CRM...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 1,066/1,080 rows
+     ✓ holidays/2017_options_pessimistic.csv: 1,028/1,028 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,253/1,253 rows
+     ✓ holidays/2019_options_pessimistic.csv: 1,077/1,077 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,538/1,538 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,649/1,649 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,579/1,579 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,485/1,485 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,792/1,792 rows
+     ✓ holidays/2025_options_pessimistic.csv: 2,174/2,174 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,885/1,885 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,679/1,679 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,990/1,990 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,883/1,883 rows
+     ✓ monthly/2020_options_pessimistic.csv: 2,409/2,409 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,559/2,559 rows
+     ✓ monthly/2022_options_pessimistic.csv: 2,898/2,898 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,389/2,389 rows
+     ✓ monthly/2024_options_pessimistic.csv: 2,424/2,424 rows
+     ✓ monthly/2025_options_pessimistic.csv: 2,387/2,387 rows
+     ✓ weekly/2016_options_pessimistic.csv: 1,319/1,356 rows
+     ✓ weekly/2017_options_pessimistic.csv: 1,243/1,243 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,671/1,671 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,501/1,501 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,752/1,752 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,968/1,968 rows
+     ✓ weekly/2022_options_pessimistic.csv: 2,078/2,078 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,671/1,671 rows
+     ✓ weekly/2024_options_pessimistic.csv: 2,150/2,150 rows
+     ✓ weekly/2025_options_pessimistic.csv: 2,271/2,271 rows
+   ✅ CRM: 30 files, 54,819 rows
+
+Processing CRWD...
+   Processing 27 files (holidays, weekly, monthly)...
+     ✓ holidays/2019_options_pessimistic.csv: 616/616 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,707/1,707 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,801/1,801 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,953/1,953 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,853/1,853 rows
+     ✓ holidays/2024_options_pessimistic.csv: 2,463/2,463 rows
+     ✓ holidays/2025_options_pessimistic.csv: 3,234/3,234 rows
+     ⚠️  2016_options_pessimistic.csv: Failed
+     ⚠️  2017_options_pessimistic.csv: Failed
+     ⚠️  2018_options_pessimistic.csv: Failed
+     ✓ monthly/2019_options_pessimistic.csv: 938/938 rows
+     ✓ monthly/2020_options_pessimistic.csv: 2,363/2,363 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,841/2,841 rows
+     ✓ monthly/2022_options_pessimistic.csv: 3,000/3,000 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,552/2,552 rows
+     ✓ monthly/2024_options_pessimistic.csv: 3,428/3,428 rows
+     ✓ monthly/2025_options_pessimistic.csv: 3,568/3,568 rows
+     ⚠️  2016_options_pessimistic.csv: Failed
+     ⚠️  2017_options_pessimistic.csv: Failed
+     ⚠️  2018_options_pessimistic.csv: Failed
+     ✓ weekly/2019_options_pessimistic.csv: 796/796 rows
+     ✓ weekly/2020_options_pessimistic.csv: 2,145/2,145 rows
+     ✓ weekly/2021_options_pessimistic.csv: 2,208/2,208 rows
+     ✓ weekly/2022_options_pessimistic.csv: 2,579/2,579 rows
+     ✓ weekly/2023_options_pessimistic.csv: 2,287/2,287 rows
+     ✓ weekly/2024_options_pessimistic.csv: 3,140/3,140 rows
+     ✓ weekly/2025_options_pessimistic.csv: 4,145/4,145 rows
+   ✅ CRWD: 21 files, 49,617 rows
+
+Processing CSCO...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 439/445 rows
+     ✓ holidays/2017_options_pessimistic.csv: 498/498 rows
+     ✓ holidays/2018_options_pessimistic.csv: 828/828 rows
+     ✓ holidays/2019_options_pessimistic.csv: 938/938 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,089/1,089 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,012/1,012 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,067/1,067 rows
+     ✓ holidays/2023_options_pessimistic.csv: 904/904 rows
+     ✓ holidays/2024_options_pessimistic.csv: 905/905 rows
+     ✓ holidays/2025_options_pessimistic.csv: 1,010/1,010 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,231/1,231 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,326/1,326 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,880/1,880 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,728/1,728 rows
+     ✓ monthly/2020_options_pessimistic.csv: 2,103/2,103 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,015/2,015 rows
+     ✓ monthly/2022_options_pessimistic.csv: 1,828/1,828 rows
+     ✓ monthly/2023_options_pessimistic.csv: 1,409/1,409 rows
+     ⚠️  2024_options_pessimistic.csv: Failed
+     ✓ monthly/2025_options_pessimistic.csv: 1,537/1,537 rows
+     ✓ weekly/2016_options_pessimistic.csv: 479/492 rows
+     ✓ weekly/2017_options_pessimistic.csv: 578/578 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,024/1,024 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,184/1,184 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,288/1,288 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,181/1,181 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,285/1,285 rows
+     ✓ weekly/2023_options_pessimistic.csv: 957/957 rows
+     ⚠️  2024_options_pessimistic.csv: Failed
+     ✓ weekly/2025_options_pessimistic.csv: 1,245/1,245 rows
+   ✅ CSCO: 28 files, 32,987 rows
+
+Processing GOOG...
+   Processing 20 files (holidays, weekly, monthly)...
+     ✓ monthly/2016_options_pessimistic.csv: 2,101/2,101 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,951/1,951 rows
+     ✓ monthly/2018_options_pessimistic.csv: 2,997/2,997 rows
+     ✓ monthly/2019_options_pessimistic.csv: 2,425/2,425 rows
+     ✓ monthly/2020_options_pessimistic.csv: 3,133/3,133 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,531/2,531 rows
+     ✓ monthly/2022_options_pessimistic.csv: 3,870/3,870 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,104/2,104 rows
+     ✓ monthly/2024_options_pessimistic.csv: 1,518/1,518 rows
+     ✓ monthly/2025_options_pessimistic.csv: 1,980/1,980 rows
+     ✓ weekly/2016_options_pessimistic.csv: 1,172/1,172 rows
+     ✓ weekly/2017_options_pessimistic.csv: 1,266/1,266 rows
+     ✓ weekly/2018_options_pessimistic.csv: 2,299/2,299 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,991/1,991 rows
+     ✓ weekly/2020_options_pessimistic.csv: 2,360/2,360 rows
+     ✓ weekly/2021_options_pessimistic.csv: 2,888/2,888 rows
+     ✓ weekly/2022_options_pessimistic.csv: 2,695/2,695 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,323/1,323 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,075/1,075 rows
+     ✓ weekly/2025_options_pessimistic.csv: 1,350/1,350 rows
+   ✅ GOOG: 20 files, 43,029 rows
+
+Processing HOOD...
+   Processing 15 files (holidays, weekly, monthly)...
+     ✓ holidays/2021_options_pessimistic.csv: 954/954 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,259/1,259 rows
+     ✓ holidays/2023_options_pessimistic.csv: 719/719 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,836/1,836 rows
+     ✓ holidays/2025_options_pessimistic.csv: 3,496/3,496 rows
+     ✓ monthly/2021_options_pessimistic.csv: 921/921 rows
+     ✓ monthly/2022_options_pessimistic.csv: 1,237/1,237 rows
+     ✓ monthly/2023_options_pessimistic.csv: 714/714 rows
+     ✓ monthly/2024_options_pessimistic.csv: 1,691/1,691 rows
+     ✓ monthly/2025_options_pessimistic.csv: 2,237/2,237 rows
+     ✓ weekly/2021_options_pessimistic.csv: 642/642 rows
+     ✓ weekly/2022_options_pessimistic.csv: 824/824 rows
+     ✓ weekly/2023_options_pessimistic.csv: 431/431 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,253/1,253 rows
+     ✓ weekly/2025_options_pessimistic.csv: 2,348/2,348 rows
+   ✅ HOOD: 15 files, 20,562 rows
+
+Processing INTC...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 502/510 rows
+     ✓ holidays/2017_options_pessimistic.csv: 647/647 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,237/1,237 rows
+     ✓ holidays/2019_options_pessimistic.csv: 1,094/1,094 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,673/1,673 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,697/1,697 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,570/1,570 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,503/1,503 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,752/1,752 rows
+     ✓ holidays/2025_options_pessimistic.csv: 2,074/2,074 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,590/1,590 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,561/1,561 rows
+     ✓ monthly/2018_options_pessimistic.csv: 2,225/2,225 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,862/1,862 rows
+     ✓ monthly/2020_options_pessimistic.csv: 2,568/2,568 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,705/2,705 rows
+     ✓ monthly/2022_options_pessimistic.csv: 2,578/2,578 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,782/2,782 rows
+     ✓ monthly/2024_options_pessimistic.csv: 3,268/3,268 rows
+     ✓ monthly/2025_options_pessimistic.csv: 3,310/3,310 rows
+     ✓ weekly/2016_options_pessimistic.csv: 631/651 rows
+     ✓ weekly/2017_options_pessimistic.csv: 793/793 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,597/1,597 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,428/1,428 rows
+     ✓ weekly/2020_options_pessimistic.csv: 2,108/2,108 rows
+     ✓ weekly/2021_options_pessimistic.csv: 2,127/2,127 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,973/1,973 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,686/1,686 rows
+     ✓ weekly/2024_options_pessimistic.csv: 2,061/2,061 rows
+     ✓ weekly/2025_options_pessimistic.csv: 2,505/2,505 rows
+   ✅ INTC: 30 files, 55,135 rows
+
+Processing IWM...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 1,631/1,661 rows
+     ✓ holidays/2017_options_pessimistic.csv: 1,735/1,735 rows
+     ✓ holidays/2018_options_pessimistic.csv: 2,074/2,074 rows
+     ✓ holidays/2019_options_pessimistic.csv: 1,979/1,979 rows
+     ✓ holidays/2020_options_pessimistic.csv: 2,680/2,680 rows
+     ✓ holidays/2021_options_pessimistic.csv: 2,810/2,810 rows
+     ✓ holidays/2022_options_pessimistic.csv: 2,583/2,583 rows
+     ✓ holidays/2023_options_pessimistic.csv: 2,303/2,303 rows
+     ✓ holidays/2024_options_pessimistic.csv: 2,820/2,820 rows
+     ✓ holidays/2025_options_pessimistic.csv: 2,917/2,917 rows
+     ✓ monthly/2016_options_pessimistic.csv: 2,286/2,286 rows
+     ✓ monthly/2017_options_pessimistic.csv: 2,322/2,322 rows
+     ✓ monthly/2018_options_pessimistic.csv: 2,514/2,514 rows
+     ✓ monthly/2019_options_pessimistic.csv: 2,351/2,351 rows
+     ✓ monthly/2020_options_pessimistic.csv: 3,391/3,391 rows
+     ✓ monthly/2021_options_pessimistic.csv: 3,506/3,506 rows
+     ✓ monthly/2022_options_pessimistic.csv: 3,644/3,644 rows
+     ✓ monthly/2023_options_pessimistic.csv: 3,106/3,106 rows
+     ✓ monthly/2024_options_pessimistic.csv: 3,631/3,631 rows
+     ✓ monthly/2025_options_pessimistic.csv: 3,523/3,523 rows
+     ✓ weekly/2016_options_pessimistic.csv: 941/971 rows
+     ✓ weekly/2017_options_pessimistic.csv: 970/970 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,247/1,247 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,239/1,239 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,602/1,602 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,737/1,737 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,562/1,562 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,317/1,317 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,762/1,762 rows
+     ✓ weekly/2025_options_pessimistic.csv: 1,846/1,846 rows
+   ✅ IWM: 30 files, 68,089 rows
+
+Processing JPM...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 892/909 rows
+     ✓ holidays/2017_options_pessimistic.csv: 1,200/1,200 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,194/1,194 rows
+     ✓ holidays/2019_options_pessimistic.csv: 968/968 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,975/1,975 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,243/1,243 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,593/1,593 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,326/1,326 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,033/1,033 rows
+     ✓ holidays/2025_options_pessimistic.csv: 1,514/1,514 rows
+     ✓ monthly/2016_options_pessimistic.csv: 888/888 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,085/1,085 rows
+     ✓ monthly/2018_options_pessimistic.csv: 890/890 rows
+     ✓ monthly/2019_options_pessimistic.csv: 729/729 rows
+     ✓ monthly/2020_options_pessimistic.csv: 1,203/1,203 rows
+     ✓ monthly/2021_options_pessimistic.csv: 1,238/1,238 rows
+     ✓ monthly/2022_options_pessimistic.csv: 1,206/1,206 rows
+     ✓ monthly/2023_options_pessimistic.csv: 1,048/1,048 rows
+     ✓ monthly/2024_options_pessimistic.csv: 1,203/1,203 rows
+     ✓ monthly/2025_options_pessimistic.csv: 1,428/1,428 rows
+     ✓ weekly/2016_options_pessimistic.csv: 524/541 rows
+     ✓ weekly/2017_options_pessimistic.csv: 719/719 rows
+     ✓ weekly/2018_options_pessimistic.csv: 756/756 rows
+     ✓ weekly/2019_options_pessimistic.csv: 628/628 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,233/1,233 rows
+     ✓ weekly/2021_options_pessimistic.csv: 764/764 rows
+     ✓ weekly/2022_options_pessimistic.csv: 993/993 rows
+     ✓ weekly/2023_options_pessimistic.csv: 801/801 rows
+     ✓ weekly/2024_options_pessimistic.csv: 635/635 rows
+     ✓ weekly/2025_options_pessimistic.csv: 935/935 rows
+   ✅ JPM: 30 files, 31,878 rows
+
+Processing KO...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 1,110/1,123 rows
+     ✓ holidays/2017_options_pessimistic.csv: 945/945 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,385/1,385 rows
+     ✓ holidays/2019_options_pessimistic.csv: 768/768 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,734/1,734 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,934/1,934 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,503/1,503 rows
+     ✓ holidays/2023_options_pessimistic.csv: 3,369/3,369 rows
+     ✓ holidays/2024_options_pessimistic.csv: 3,199/3,199 rows
+     ✓ holidays/2025_options_pessimistic.csv: 2,696/2,696 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,146/1,146 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,030/1,030 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,249/1,249 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,121/1,121 rows
+     ✓ monthly/2020_options_pessimistic.csv: 1,678/1,678 rows
+     ✓ monthly/2021_options_pessimistic.csv: 1,506/1,506 rows
+     ✓ monthly/2022_options_pessimistic.csv: 1,549/1,549 rows
+     ✓ monthly/2023_options_pessimistic.csv: 1,256/1,256 rows
+     ✓ monthly/2024_options_pessimistic.csv: 1,246/1,246 rows
+     ✓ monthly/2025_options_pessimistic.csv: 1,457/1,457 rows
+     ✓ weekly/2016_options_pessimistic.csv: 474/486 rows
+     ✓ weekly/2017_options_pessimistic.csv: 528/528 rows
+     ✓ weekly/2018_options_pessimistic.csv: 699/699 rows
+     ✓ weekly/2019_options_pessimistic.csv: 805/805 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,377/1,377 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,263/1,263 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,161/1,161 rows
+     ✓ weekly/2023_options_pessimistic.csv: 813/813 rows
+     ✓ weekly/2024_options_pessimistic.csv: 915/915 rows
+     ✓ weekly/2025_options_pessimistic.csv: 1,278/1,278 rows
+   ✅ KO: 30 files, 41,219 rows
+
+Processing LQD...
+   Processing 12 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 22/22 rows
+     ✓ holidays/2017_options_pessimistic.csv: 18/18 rows
+     ✓ holidays/2018_options_pessimistic.csv: 13/13 rows
+     ✓ holidays/2019_options_pessimistic.csv: 22/22 rows
+     ✓ holidays/2020_options_pessimistic.csv: 440/440 rows
+     ✓ holidays/2021_options_pessimistic.csv: 297/297 rows
+     ✓ holidays/2022_options_pessimistic.csv: 371/371 rows
+     ✓ holidays/2023_options_pessimistic.csv: 415/415 rows
+     ✓ holidays/2024_options_pessimistic.csv: 398/398 rows
+     ✓ holidays/2025_options_pessimistic.csv: 484/484 rows
+     ✓ monthly/2016_options_pessimistic.csv: 362/362 rows
+     ✓ monthly/2017_options_pessimistic.csv: 275/275 rows
+   ✅ LQD: 12 files, 3,117 rows
+
+Processing LRCX...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 65/65 rows
+     ✓ holidays/2017_options_pessimistic.csv: 322/322 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,018/1,018 rows
+     ✓ holidays/2019_options_pessimistic.csv: 975/975 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,494/1,494 rows
+     ✓ holidays/2021_options_pessimistic.csv: 2,364/2,364 rows
+     ✓ holidays/2022_options_pessimistic.csv: 2,038/2,038 rows
+     ✓ holidays/2023_options_pessimistic.csv: 2,146/2,146 rows
+     ✓ holidays/2024_options_pessimistic.csv: 2,612/2,612 rows
+     ✓ holidays/2025_options_pessimistic.csv: 1,571/1,571 rows
+     ✓ monthly/2016_options_pessimistic.csv: 629/629 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,184/1,184 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,920/1,920 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,876/1,876 rows
+     ✓ monthly/2020_options_pessimistic.csv: 2,834/2,834 rows
+     ✓ monthly/2021_options_pessimistic.csv: 4,227/4,227 rows
+     ✓ monthly/2022_options_pessimistic.csv: 4,385/4,385 rows
+     ✓ monthly/2023_options_pessimistic.csv: 4,506/4,506 rows
+     ✓ monthly/2024_options_pessimistic.csv: 5,078/5,078 rows
+     ✓ monthly/2025_options_pessimistic.csv: 2,635/2,635 rows
+     ⚠️  2016_options_pessimistic.csv: Failed
+     ✓ weekly/2017_options_pessimistic.csv: 326/326 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,397/1,397 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,282/1,282 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,976/1,976 rows
+     ✓ weekly/2021_options_pessimistic.csv: 2,931/2,931 rows
+     ✓ weekly/2022_options_pessimistic.csv: 2,537/2,537 rows
+     ✓ weekly/2023_options_pessimistic.csv: 2,439/2,439 rows
+     ✓ weekly/2024_options_pessimistic.csv: 3,152/3,152 rows
+     ✓ weekly/2025_options_pessimistic.csv: 2,040/2,040 rows
+   ✅ LRCX: 29 files, 61,959 rows
+
+Processing META...
+   Processing 25 files (holidays, weekly, monthly)...
+     ✓ holidays/2021_options_pessimistic.csv: 22/22 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,643/1,643 rows
+     ✓ holidays/2023_options_pessimistic.csv: 3,288/3,288 rows
+     ✓ holidays/2024_options_pessimistic.csv: 3,726/3,726 rows
+     ✓ holidays/2025_options_pessimistic.csv: 5,455/5,455 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,500/1,500 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,359/1,359 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,570/1,570 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,478/1,478 rows
+     ✓ monthly/2020_options_pessimistic.csv: 2,517/2,517 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,974/2,974 rows
+     ✓ monthly/2022_options_pessimistic.csv: 1,199/1,199 rows
+     ✓ monthly/2023_options_pessimistic.csv: 3,199/3,199 rows
+     ✓ monthly/2024_options_pessimistic.csv: 4,656/4,656 rows
+     ✓ monthly/2025_options_pessimistic.csv: 5,158/5,158 rows
+     ✓ weekly/2016_options_pessimistic.csv: 1,001/1,001 rows
+     ✓ weekly/2017_options_pessimistic.csv: 822/822 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,143/1,143 rows
+     ✓ weekly/2019_options_pessimistic.csv: 942/942 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,447/1,447 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,703/1,703 rows
+     ✓ weekly/2022_options_pessimistic.csv: 802/802 rows
+     ✓ weekly/2023_options_pessimistic.csv: 2,036/2,036 rows
+     ✓ weekly/2024_options_pessimistic.csv: 2,355/2,355 rows
+     ✓ weekly/2025_options_pessimistic.csv: 3,591/3,591 rows
+   ✅ META: 25 files, 55,586 rows
+
+Processing MRK...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 501/509 rows
+     ✓ holidays/2017_options_pessimistic.csv: 545/545 rows
+     ✓ holidays/2018_options_pessimistic.csv: 726/726 rows
+     ✓ holidays/2019_options_pessimistic.csv: 872/872 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,191/1,191 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,208/1,208 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,107/1,107 rows
+     ✓ holidays/2023_options_pessimistic.csv: 963/963 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,065/1,065 rows
+     ✓ holidays/2025_options_pessimistic.csv: 1,230/1,230 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,124/1,124 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,032/1,032 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,277/1,277 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,496/1,496 rows
+     ✓ monthly/2020_options_pessimistic.csv: 1,813/1,813 rows
+     ✓ monthly/2021_options_pessimistic.csv: 1,905/1,905 rows
+     ✓ monthly/2022_options_pessimistic.csv: 1,868/1,868 rows
+     ✓ monthly/2023_options_pessimistic.csv: 1,480/1,480 rows
+     ✓ monthly/2024_options_pessimistic.csv: 1,447/1,447 rows
+     ✓ monthly/2025_options_pessimistic.csv: 1,531/1,531 rows
+     ✓ weekly/2016_options_pessimistic.csv: 573/592 rows
+     ✓ weekly/2017_options_pessimistic.csv: 642/642 rows
+     ✓ weekly/2018_options_pessimistic.csv: 896/896 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,153/1,153 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,353/1,353 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,350/1,350 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,249/1,249 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,204/1,204 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,325/1,325 rows
+     ✓ weekly/2025_options_pessimistic.csv: 1,613/1,613 rows
+   ✅ MRK: 30 files, 35,766 rows
+
+Processing MSFT...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 940/940 rows
+     ✓ holidays/2017_options_pessimistic.csv: 1,052/1,052 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,645/1,645 rows
+     ✓ holidays/2019_options_pessimistic.csv: 1,464/1,464 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,828/1,828 rows
+     ✓ holidays/2021_options_pessimistic.csv: 2,021/2,021 rows
+     ✓ holidays/2022_options_pessimistic.csv: 2,237/2,237 rows
+     ✓ holidays/2023_options_pessimistic.csv: 2,410/2,410 rows
+     ✓ holidays/2024_options_pessimistic.csv: 2,534/2,534 rows
+     ✓ holidays/2025_options_pessimistic.csv: 3,013/3,013 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,054/1,054 rows
+     ✓ monthly/2017_options_pessimistic.csv: 971/971 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,315/1,315 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,177/1,177 rows
+     ✓ monthly/2020_options_pessimistic.csv: 1,865/1,865 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,405/2,405 rows
+     ✓ monthly/2022_options_pessimistic.csv: 2,412/2,412 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,583/2,583 rows
+     ✓ monthly/2024_options_pessimistic.csv: 2,893/2,893 rows
+     ✓ monthly/2025_options_pessimistic.csv: 2,875/2,875 rows
+     ✓ weekly/2016_options_pessimistic.csv: 557/557 rows
+     ✓ weekly/2017_options_pessimistic.csv: 634/634 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,099/1,099 rows
+     ✓ weekly/2019_options_pessimistic.csv: 981/981 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,126/1,126 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,245/1,245 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,381/1,381 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,450/1,450 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,612/1,612 rows
+     ✓ weekly/2025_options_pessimistic.csv: 1,981/1,981 rows
+   ✅ MSFT: 30 files, 50,760 rows
+
+Processing MU...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 573/580 rows
+     ✓ holidays/2017_options_pessimistic.csv: 1,152/1,152 rows
+     ✓ holidays/2018_options_pessimistic.csv: 2,092/2,092 rows
+     ✓ holidays/2019_options_pessimistic.csv: 1,588/1,588 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,900/1,900 rows
+     ✓ holidays/2021_options_pessimistic.csv: 2,362/2,362 rows
+     ✓ holidays/2022_options_pessimistic.csv: 2,105/2,105 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,885/1,885 rows
+     ✓ holidays/2024_options_pessimistic.csv: 2,778/2,778 rows
+     ✓ holidays/2025_options_pessimistic.csv: 3,192/3,192 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,264/1,264 rows
+     ✓ monthly/2017_options_pessimistic.csv: 2,497/2,497 rows
+     ✓ monthly/2018_options_pessimistic.csv: 3,397/3,397 rows
+     ✓ monthly/2019_options_pessimistic.csv: 3,041/3,041 rows
+Traceback (most recent call last):
+  File "/Users/paulvanmierlo/spout-optionsbacktest/process_all_tickers_standardize.py", line 132, in process_file
+    df = pd.read_csv(csv_file)
+  File "/Users/paulvanmierlo/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/paulvanmierlo/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/paulvanmierlo/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/paulvanmierlo/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "/Users/paulvanmierlo/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+     ✓ monthly/2020_options_pessimistic.csv: 2,615/2,615 rows
+     ✓ monthly/2021_options_pessimistic.csv: 3,342/3,342 rows
+     ✓ monthly/2022_options_pessimistic.csv: 3,001/3,001 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,422/2,422 rows
+     ✓ monthly/2024_options_pessimistic.csv: 3,510/3,510 rows
+     ✓ monthly/2025_options_pessimistic.csv: 3,571/3,571 rows
+     ✓ weekly/2016_options_pessimistic.csv: 563/575 rows
+     ✓ weekly/2017_options_pessimistic.csv: 1,335/1,335 rows
+     ✓ weekly/2018_options_pessimistic.csv: 2,522/2,522 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,945/1,945 rows
+     ✓ weekly/2020_options_pessimistic.csv: 2,136/2,136 rows
+     ✓ weekly/2021_options_pessimistic.csv: 2,631/2,631 rows
+     ✓ weekly/2022_options_pessimistic.csv: 2,153/2,153 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,821/1,821 rows
+     ✓ weekly/2024_options_pessimistic.csv: 3,233/3,233 rows
+     ✓ weekly/2025_options_pessimistic.csv: 3,889/3,889 rows
+   ✅ MU: 30 files, 70,534 rows
+
+Processing NFLX...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 2,262/2,301 rows
+     ✓ holidays/2017_options_pessimistic.csv: 1,475/1,475 rows
+     ✓ holidays/2018_options_pessimistic.csv: 2,929/2,929 rows
+     ✓ holidays/2019_options_pessimistic.csv: 2,539/2,539 rows
+     ✓ holidays/2020_options_pessimistic.csv: 3,243/3,243 rows
+     ✓ holidays/2021_options_pessimistic.csv: 2,950/2,950 rows
+     ✓ holidays/2022_options_pessimistic.csv: 3,141/3,141 rows
+     ✓ holidays/2023_options_pessimistic.csv: 3,011/3,011 rows
+     ✓ holidays/2024_options_pessimistic.csv: 3,431/3,431 rows
+     ✓ holidays/2025_options_pessimistic.csv: 5,376/5,376 rows
+     ✓ monthly/2016_options_pessimistic.csv: 3,434/3,434 rows
+     ✓ monthly/2017_options_pessimistic.csv: 2,761/2,761 rows
+     ✓ monthly/2018_options_pessimistic.csv: 5,650/5,650 rows
+     ✓ monthly/2019_options_pessimistic.csv: 5,263/5,263 rows
+     ✓ monthly/2020_options_pessimistic.csv: 7,019/7,019 rows
+     ✓ monthly/2021_options_pessimistic.csv: 6,441/6,441 rows
+     ✓ monthly/2022_options_pessimistic.csv: 7,446/7,446 rows
+     ✓ monthly/2023_options_pessimistic.csv: 6,611/6,611 rows
+     ✓ monthly/2024_options_pessimistic.csv: 7,868/7,868 rows
+     ✓ monthly/2025_options_pessimistic.csv: 8,483/8,483 rows
+     ✓ weekly/2016_options_pessimistic.csv: 2,874/2,947 rows
+     ✓ weekly/2017_options_pessimistic.csv: 1,717/1,717 rows
+     ✓ weekly/2018_options_pessimistic.csv: 3,713/3,713 rows
+     ✓ weekly/2019_options_pessimistic.csv: 3,134/3,134 rows
+     ✓ weekly/2020_options_pessimistic.csv: 3,966/3,966 rows
+     ✓ weekly/2021_options_pessimistic.csv: 3,671/3,671 rows
+     ✓ weekly/2022_options_pessimistic.csv: 4,018/4,018 rows
+     ✓ weekly/2023_options_pessimistic.csv: 3,482/3,482 rows
+     ✓ weekly/2024_options_pessimistic.csv: 4,116/4,116 rows
+     ✓ weekly/2025_options_pessimistic.csv: 6,697/6,697 rows
+   ✅ NFLX: 30 files, 128,833 rows
+
+Processing NVDA...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 1,054/1,054 rows
+     ✓ holidays/2017_options_pessimistic.csv: 1,956/1,956 rows
+     ✓ holidays/2018_options_pessimistic.csv: 2,090/2,090 rows
+     ✓ holidays/2019_options_pessimistic.csv: 1,720/1,720 rows
+     ✓ holidays/2020_options_pessimistic.csv: 3,357/3,357 rows
+     ✓ holidays/2021_options_pessimistic.csv: 4,008/4,008 rows
+     ✓ holidays/2022_options_pessimistic.csv: 3,108/3,108 rows
+     ✓ holidays/2023_options_pessimistic.csv: 4,337/4,337 rows
+     ✓ holidays/2024_options_pessimistic.csv: 6,626/6,626 rows
+     ✓ holidays/2025_options_pessimistic.csv: 4,453/4,453 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,018/1,018 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,649/1,649 rows
+     ✓ monthly/2018_options_pessimistic.csv: 2,141/2,141 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,648/1,648 rows
+     ✓ monthly/2020_options_pessimistic.csv: 3,938/3,938 rows
+     ✓ monthly/2021_options_pessimistic.csv: 4,846/4,846 rows
+     ✓ monthly/2022_options_pessimistic.csv: 3,209/3,209 rows
+     ✓ monthly/2023_options_pessimistic.csv: 5,264/5,264 rows
+     ✓ monthly/2024_options_pessimistic.csv: 10,023/10,023 rows
+     ✓ monthly/2025_options_pessimistic.csv: 5,081/5,081 rows
+     ✓ weekly/2016_options_pessimistic.csv: 636/636 rows
+     ✓ weekly/2017_options_pessimistic.csv: 1,186/1,186 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,357/1,357 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,088/1,088 rows
+     ✓ weekly/2020_options_pessimistic.csv: 2,047/2,047 rows
+   ❌ Error processing 2021_options_pessimistic.csv: No columns to parse from file
+     ⚠️  2021_options_pessimistic.csv: Failed
+     ✓ weekly/2022_options_pessimistic.csv: 1,883/1,883 rows
+     ✓ weekly/2023_options_pessimistic.csv: 2,589/2,589 rows
+     ✓ weekly/2024_options_pessimistic.csv: 3,938/3,938 rows
+     ✓ weekly/2025_options_pessimistic.csv: 2,654/2,654 rows
+   ✅ NVDA: 29 files, 88,904 rows
+
+Processing ORCL...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 401/408 rows
+     ✓ holidays/2017_options_pessimistic.csv: 542/542 rows
+     ✓ holidays/2018_options_pessimistic.csv: 674/674 rows
+     ✓ holidays/2019_options_pessimistic.csv: 647/647 rows
+     ✓ holidays/2020_options_pessimistic.csv: 948/948 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,180/1,180 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,033/1,033 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,300/1,300 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,454/1,454 rows
+     ✓ holidays/2025_options_pessimistic.csv: 2,471/2,471 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,147/1,147 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,372/1,372 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,535/1,535 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,224/1,224 rows
+     ✓ monthly/2020_options_pessimistic.csv: 1,478/1,478 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,160/2,160 rows
+     ✓ monthly/2022_options_pessimistic.csv: 1,992/1,992 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,073/2,073 rows
+     ✓ monthly/2024_options_pessimistic.csv: 2,214/2,214 rows
+     ✓ monthly/2025_options_pessimistic.csv: 3,320/3,320 rows
+     ✓ weekly/2016_options_pessimistic.csv: 448/465 rows
+     ✓ weekly/2017_options_pessimistic.csv: 631/631 rows
+     ✓ weekly/2018_options_pessimistic.csv: 816/816 rows
+     ✓ weekly/2019_options_pessimistic.csv: 794/794 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,087/1,087 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,356/1,356 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,206/1,206 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,412/1,412 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,783/1,783 rows
+     ✓ weekly/2025_options_pessimistic.csv: 3,109/3,109 rows
+   ✅ ORCL: 30 files, 41,831 rows
+
+Processing PLTR...
+   Processing 26 files (holidays, weekly, monthly)...
+     ✓ holidays/2020_options_pessimistic.csv: 380/380 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,987/1,987 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,107/1,107 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,395/1,395 rows
+     ✓ holidays/2024_options_pessimistic.csv: 2,357/2,357 rows
+     ✓ holidays/2025_options_pessimistic.csv: 3,944/3,944 rows
+     ⚠️  2016_options_pessimistic.csv: Failed
+     ⚠️  2017_options_pessimistic.csv: Failed
+     ⚠️  2018_options_pessimistic.csv: Failed
+     ⚠️  2019_options_pessimistic.csv: Failed
+     ✓ monthly/2020_options_pessimistic.csv: 715/715 rows
+     ✓ monthly/2021_options_pessimistic.csv: 3,702/3,702 rows
+     ✓ monthly/2022_options_pessimistic.csv: 2,293/2,293 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,377/2,377 rows
+     ✓ monthly/2024_options_pessimistic.csv: 4,052/4,052 rows
+     ✓ monthly/2025_options_pessimistic.csv: 5,337/5,337 rows
+     ⚠️  2016_options_pessimistic.csv: Failed
+     ⚠️  2017_options_pessimistic.csv: Failed
+     ⚠️  2018_options_pessimistic.csv: Failed
+     ⚠️  2019_options_pessimistic.csv: Failed
+     ✓ weekly/2020_options_pessimistic.csv: 366/366 rows
+     ✓ weekly/2021_options_pessimistic.csv: 2,352/2,352 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,304/1,304 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,458/1,458 rows
+     ✓ weekly/2024_options_pessimistic.csv: 2,833/2,833 rows
+     ✓ weekly/2025_options_pessimistic.csv: 4,792/4,792 rows
+   ✅ PLTR: 18 files, 42,751 rows
+
+Processing QCOM...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 781/792 rows
+     ✓ holidays/2017_options_pessimistic.csv: 899/899 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,101/1,101 rows
+     ✓ holidays/2019_options_pessimistic.csv: 1,391/1,391 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,438/1,438 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,618/1,618 rows
+     ✓ holidays/2022_options_pessimistic.csv: 2,017/2,017 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,683/1,683 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,394/1,394 rows
+     ✓ holidays/2025_options_pessimistic.csv: 1,263/1,263 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,685/1,685 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,453/1,453 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,528/1,528 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,983/1,983 rows
+     ✓ monthly/2020_options_pessimistic.csv: 2,406/2,406 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,601/2,601 rows
+     ✓ monthly/2022_options_pessimistic.csv: 3,160/3,160 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,222/2,222 rows
+     ✓ monthly/2024_options_pessimistic.csv: 2,425/2,425 rows
+     ✓ monthly/2025_options_pessimistic.csv: 1,942/1,942 rows
+     ✓ weekly/2016_options_pessimistic.csv: 979/1,006 rows
+     ✓ weekly/2017_options_pessimistic.csv: 1,089/1,089 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,369/1,369 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,868/1,868 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,760/1,760 rows
+     ✓ weekly/2021_options_pessimistic.csv: 2,075/2,075 rows
+     ✓ weekly/2022_options_pessimistic.csv: 2,622/2,622 rows
+     ✓ weekly/2023_options_pessimistic.csv: 2,064/2,064 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,763/1,763 rows
+     ✓ weekly/2025_options_pessimistic.csv: 1,777/1,777 rows
+   ✅ QCOM: 30 files, 52,394 rows
+
+Processing QQQ...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 1,552/1,587 rows
+     ✓ holidays/2017_options_pessimistic.csv: 1,682/1,682 rows
+     ✓ holidays/2018_options_pessimistic.csv: 2,711/2,711 rows
+     ✓ holidays/2019_options_pessimistic.csv: 2,652/2,652 rows
+     ✓ holidays/2020_options_pessimistic.csv: 4,051/4,051 rows
+     ✓ holidays/2021_options_pessimistic.csv: 4,127/4,127 rows
+     ✓ holidays/2022_options_pessimistic.csv: 4,842/4,842 rows
+     ✓ holidays/2023_options_pessimistic.csv: 4,568/4,568 rows
+     ✓ holidays/2024_options_pessimistic.csv: 5,561/5,561 rows
+     ✓ holidays/2025_options_pessimistic.csv: 5,831/5,831 rows
+     ✓ monthly/2016_options_pessimistic.csv: 405/405 rows
+     ✓ monthly/2017_options_pessimistic.csv: 642/642 rows
+     ✓ monthly/2018_options_pessimistic.csv: 978/978 rows
+     ✓ monthly/2019_options_pessimistic.csv: 908/908 rows
+     ✓ monthly/2020_options_pessimistic.csv: 1,809/1,809 rows
+     ✓ monthly/2021_options_pessimistic.csv: 1,698/1,698 rows
+     ✓ monthly/2022_options_pessimistic.csv: 1,918/1,918 rows
+     ✓ monthly/2023_options_pessimistic.csv: 1,642/1,642 rows
+     ✓ monthly/2024_options_pessimistic.csv: 1,085/1,085 rows
+     ✓ monthly/2025_options_pessimistic.csv: 999/999 rows
+     ✓ weekly/2016_options_pessimistic.csv: 136/144 rows
+     ✓ weekly/2017_options_pessimistic.csv: 243/243 rows
+     ✓ weekly/2018_options_pessimistic.csv: 448/448 rows
+     ✓ weekly/2019_options_pessimistic.csv: 471/471 rows
+     ✓ weekly/2020_options_pessimistic.csv: 872/872 rows
+     ✓ weekly/2021_options_pessimistic.csv: 826/826 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,047/1,047 rows
+     ✓ weekly/2023_options_pessimistic.csv: 833/833 rows
+     ✓ weekly/2024_options_pessimistic.csv: 600/600 rows
+     ✓ weekly/2025_options_pessimistic.csv: 640/640 rows
+   ✅ QQQ: 30 files, 55,820 rows
+
+Processing SMCI...
+   Processing 29 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 12/12 rows
+     ✓ holidays/2017_options_pessimistic.csv: 11/11 rows
+     ✓ holidays/2018_options_pessimistic.csv: 10/10 rows
+     ✓ holidays/2020_options_pessimistic.csv: 7/7 rows
+     ✓ holidays/2021_options_pessimistic.csv: 9/9 rows
+     ✓ holidays/2022_options_pessimistic.csv: 44/44 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,970/1,970 rows
+     ✓ holidays/2024_options_pessimistic.csv: 6,059/6,059 rows
+     ✓ holidays/2025_options_pessimistic.csv: 3,125/3,125 rows
+     ✓ monthly/2016_options_pessimistic.csv: 148/148 rows
+     ✓ monthly/2017_options_pessimistic.csv: 97/97 rows
+     ✓ monthly/2018_options_pessimistic.csv: 137/137 rows
+     ⚠️  2019_options_pessimistic.csv: Failed
+     ✓ monthly/2020_options_pessimistic.csv: 50/50 rows
+     ✓ monthly/2021_options_pessimistic.csv: 75/75 rows
+     ✓ monthly/2022_options_pessimistic.csv: 537/537 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,937/2,937 rows
+     ✓ monthly/2024_options_pessimistic.csv: 8,765/8,765 rows
+     ✓ monthly/2025_options_pessimistic.csv: 5,526/5,526 rows
+     ⚠️  2016_options_pessimistic.csv: Failed
+     ⚠️  2017_options_pessimistic.csv: Failed
+     ⚠️  2018_options_pessimistic.csv: Failed
+     ⚠️  2019_options_pessimistic.csv: Failed
+     ⚠️  2020_options_pessimistic.csv: Failed
+     ⚠️  2021_options_pessimistic.csv: Failed
+     ⚠️  2022_options_pessimistic.csv: Failed
+     ✓ weekly/2023_options_pessimistic.csv: 2,386/2,386 rows
+     ✓ weekly/2024_options_pessimistic.csv: 7,605/7,605 rows
+     ✓ weekly/2025_options_pessimistic.csv: 3,837/3,837 rows
+   ✅ SMCI: 21 files, 43,347 rows
+
+Processing SOFI...
+   Processing 25 files (holidays, weekly, monthly)...
+     ✓ holidays/2021_options_pessimistic.csv: 866/866 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,025/1,025 rows
+     ✓ holidays/2023_options_pessimistic.csv: 855/855 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,016/1,016 rows
+     ✓ holidays/2025_options_pessimistic.csv: 1,956/1,956 rows
+     ⚠️  2016_options_pessimistic.csv: Failed
+     ⚠️  2017_options_pessimistic.csv: Failed
+     ⚠️  2018_options_pessimistic.csv: Failed
+     ⚠️  2019_options_pessimistic.csv: Failed
+     ⚠️  2020_options_pessimistic.csv: Failed
+     ⚠️  2021_options_pessimistic.csv: Failed
+     ⚠️  2022_options_pessimistic.csv: Failed
+     ✓ monthly/2023_options_pessimistic.csv: 1,548/1,548 rows
+     ✓ monthly/2024_options_pessimistic.csv: 1,659/1,659 rows
+     ✓ monthly/2025_options_pessimistic.csv: 3,107/3,107 rows
+     ⚠️  2016_options_pessimistic.csv: Failed
+     ⚠️  2017_options_pessimistic.csv: Failed
+     ⚠️  2018_options_pessimistic.csv: Failed
+     ⚠️  2019_options_pessimistic.csv: Failed
+     ⚠️  2020_options_pessimistic.csv: Failed
+     ⚠️  2021_options_pessimistic.csv: Failed
+     ⚠️  2022_options_pessimistic.csv: Failed
+     ✓ weekly/2023_options_pessimistic.csv: 917/917 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,170/1,170 rows
+     ✓ weekly/2025_options_pessimistic.csv: 2,327/2,327 rows
+   ✅ SOFI: 11 files, 16,446 rows
+
+Processing SPOT...
+   Processing 28 files (holidays, weekly, monthly)...
+     ✓ holidays/2018_options_pessimistic.csv: 770/770 rows
+     ✓ holidays/2019_options_pessimistic.csv: 1,128/1,128 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,668/1,668 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,576/1,576 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,567/1,567 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,278/1,278 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,446/1,446 rows
+     ✓ holidays/2025_options_pessimistic.csv: 2,843/2,843 rows
+     ⚠️  2016_options_pessimistic.csv: Failed
+     ⚠️  2017_options_pessimistic.csv: Failed
+     ✓ monthly/2018_options_pessimistic.csv: 1,247/1,247 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,442/1,442 rows
+     ✓ monthly/2020_options_pessimistic.csv: 2,178/2,178 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,285/2,285 rows
+     ✓ monthly/2022_options_pessimistic.csv: 1,929/1,929 rows
+     ✓ monthly/2023_options_pessimistic.csv: 1,868/1,868 rows
+     ✓ monthly/2024_options_pessimistic.csv: 2,116/2,116 rows
+     ✓ monthly/2025_options_pessimistic.csv: 3,086/3,086 rows
+     ⚠️  2016_options_pessimistic.csv: Failed
+     ⚠️  2017_options_pessimistic.csv: Failed
+     ✓ weekly/2018_options_pessimistic.csv: 1,068/1,068 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,579/1,579 rows
+     ✓ weekly/2020_options_pessimistic.csv: 2,078/2,078 rows
+     ✓ weekly/2021_options_pessimistic.csv: 2,047/2,047 rows
+     ✓ weekly/2022_options_pessimistic.csv: 2,066/2,066 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,648/1,648 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,933/1,933 rows
+     ✓ weekly/2025_options_pessimistic.csv: 4,131/4,131 rows
+   ✅ SPOT: 24 files, 44,977 rows
+
+Processing SPY...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 2,642/2,699 rows
+     ✓ holidays/2017_options_pessimistic.csv: 2,072/2,072 rows
+     ✓ holidays/2018_options_pessimistic.csv: 3,120/3,120 rows
+     ✓ holidays/2019_options_pessimistic.csv: 2,871/2,871 rows
+     ✓ holidays/2020_options_pessimistic.csv: 4,507/4,507 rows
+     ✓ holidays/2021_options_pessimistic.csv: 4,597/4,597 rows
+     ✓ holidays/2022_options_pessimistic.csv: 5,457/5,457 rows
+     ✓ holidays/2023_options_pessimistic.csv: 4,525/4,525 rows
+     ✓ holidays/2024_options_pessimistic.csv: 5,063/5,063 rows
+     ✓ holidays/2025_options_pessimistic.csv: 6,027/6,027 rows
+     ✓ monthly/2016_options_pessimistic.csv: 3,340/3,340 rows
+     ✓ monthly/2017_options_pessimistic.csv: 3,377/3,377 rows
+     ✓ monthly/2018_options_pessimistic.csv: 4,231/4,231 rows
+     ✓ monthly/2019_options_pessimistic.csv: 3,844/3,844 rows
+     ✓ monthly/2020_options_pessimistic.csv: 6,937/6,937 rows
+     ✓ monthly/2021_options_pessimistic.csv: 6,298/6,298 rows
+     ✓ monthly/2022_options_pessimistic.csv: 7,407/7,407 rows
+     ✓ monthly/2023_options_pessimistic.csv: 5,725/5,725 rows
+     ✓ monthly/2024_options_pessimistic.csv: 6,569/6,569 rows
+     ✓ monthly/2025_options_pessimistic.csv: 7,086/7,086 rows
+     ✓ weekly/2016_options_pessimistic.csv: 1,529/1,586 rows
+     ✓ weekly/2017_options_pessimistic.csv: 1,105/1,105 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,798/1,798 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,683/1,683 rows
+     ✓ weekly/2020_options_pessimistic.csv: 2,580/2,580 rows
+     ✓ weekly/2021_options_pessimistic.csv: 2,576/2,576 rows
+     ✓ weekly/2022_options_pessimistic.csv: 3,066/3,066 rows
+     ✓ weekly/2023_options_pessimistic.csv: 2,468/2,468 rows
+     ✓ weekly/2024_options_pessimistic.csv: 2,575/2,575 rows
+     ✓ weekly/2025_options_pessimistic.csv: 3,262/3,262 rows
+   ✅ SPY: 30 files, 118,451 rows
+
+Processing TSLA...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 1,700/1,700 rows
+     ✓ holidays/2017_options_pessimistic.csv: 2,222/2,222 rows
+     ✓ holidays/2018_options_pessimistic.csv: 3,175/3,175 rows
+     ✓ holidays/2019_options_pessimistic.csv: 3,035/3,035 rows
+     ✓ holidays/2020_options_pessimistic.csv: 8,269/8,269 rows
+     ✓ holidays/2021_options_pessimistic.csv: 8,133/8,133 rows
+     ✓ holidays/2022_options_pessimistic.csv: 6,928/6,928 rows
+     ✓ holidays/2023_options_pessimistic.csv: 4,717/4,717 rows
+     ✓ holidays/2024_options_pessimistic.csv: 4,467/4,467 rows
+     ✓ holidays/2025_options_pessimistic.csv: 6,712/6,712 rows
+     ✓ monthly/2016_options_pessimistic.csv: 844/844 rows
+     ✓ monthly/2017_options_pessimistic.csv: 4,724/4,724 rows
+     ✓ monthly/2018_options_pessimistic.csv: 2,936/2,936 rows
+     ✓ monthly/2019_options_pessimistic.csv: 2,449/2,449 rows
+     ✓ monthly/2020_options_pessimistic.csv: 8,954/8,954 rows
+     ✓ monthly/2021_options_pessimistic.csv: 8,855/8,855 rows
+     ✓ monthly/2022_options_pessimistic.csv: 7,693/7,693 rows
+     ✓ monthly/2023_options_pessimistic.csv: 5,460/5,460 rows
+     ✓ monthly/2024_options_pessimistic.csv: 4,902/4,902 rows
+     ✓ monthly/2025_options_pessimistic.csv: 6,201/6,201 rows
+     ✓ weekly/2016_options_pessimistic.csv: 558/558 rows
+     ✓ weekly/2017_options_pessimistic.csv: 2,798/2,798 rows
+     ✓ weekly/2018_options_pessimistic.csv: 2,131/2,131 rows
+     ✓ weekly/2019_options_pessimistic.csv: 2,060/2,060 rows
+     ✓ weekly/2020_options_pessimistic.csv: 4,810/4,810 rows
+     ✓ weekly/2021_options_pessimistic.csv: 4,980/4,980 rows
+     ✓ weekly/2022_options_pessimistic.csv: 4,134/4,134 rows
+     ✓ weekly/2023_options_pessimistic.csv: 2,790/2,790 rows
+     ✓ weekly/2024_options_pessimistic.csv: 2,978/2,978 rows
+     ✓ weekly/2025_options_pessimistic.csv: 4,461/4,461 rows
+   ✅ TSLA: 30 files, 134,076 rows
+
+Processing UBER...
+   Processing 27 files (holidays, weekly, monthly)...
+     ✓ holidays/2019_options_pessimistic.csv: 711/711 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,628/1,628 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,799/1,799 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,501/1,501 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,546/1,546 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,624/1,624 rows
+     ✓ holidays/2025_options_pessimistic.csv: 1,896/1,896 rows
+     ⚠️  2016_options_pessimistic.csv: Failed
+     ⚠️  2017_options_pessimistic.csv: Failed
+     ⚠️  2018_options_pessimistic.csv: Failed
+     ✓ monthly/2019_options_pessimistic.csv: 1,623/1,623 rows
+     ✓ monthly/2020_options_pessimistic.csv: 3,170/3,170 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,380/2,380 rows
+     ✓ monthly/2022_options_pessimistic.csv: 2,195/2,195 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,039/2,039 rows
+     ✓ monthly/2024_options_pessimistic.csv: 2,627/2,627 rows
+     ✓ monthly/2025_options_pessimistic.csv: 2,838/2,838 rows
+     ⚠️  2016_options_pessimistic.csv: Failed
+     ⚠️  2017_options_pessimistic.csv: Failed
+     ⚠️  2018_options_pessimistic.csv: Failed
+     ✓ weekly/2019_options_pessimistic.csv: 951/951 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,984/1,984 rows
+     ✓ weekly/2021_options_pessimistic.csv: 2,074/2,074 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,814/1,814 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,792/1,792 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,856/1,856 rows
+     ✓ weekly/2025_options_pessimistic.csv: 2,328/2,328 rows
+   ✅ UBER: 21 files, 40,376 rows
+
+Processing UNH...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 510/520 rows
+     ✓ holidays/2017_options_pessimistic.csv: 384/384 rows
+     ✓ holidays/2018_options_pessimistic.csv: 664/664 rows
+     ✓ holidays/2019_options_pessimistic.csv: 876/876 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,269/1,269 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,134/1,134 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,465/1,465 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,461/1,461 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,668/1,668 rows
+     ✓ holidays/2025_options_pessimistic.csv: 2,964/2,964 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,177/1,177 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,110/1,110 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,236/1,236 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,673/1,673 rows
+     ✓ monthly/2020_options_pessimistic.csv: 1,946/1,946 rows
+     ✓ monthly/2021_options_pessimistic.csv: 1,885/1,885 rows
+     ✓ monthly/2022_options_pessimistic.csv: 2,454/2,454 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,431/2,431 rows
+     ✓ monthly/2024_options_pessimistic.csv: 2,564/2,564 rows
+     ✓ monthly/2025_options_pessimistic.csv: 4,380/4,380 rows
+     ✓ weekly/2016_options_pessimistic.csv: 728/751 rows
+     ✓ weekly/2017_options_pessimistic.csv: 473/473 rows
+     ✓ weekly/2018_options_pessimistic.csv: 892/892 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,162/1,162 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,592/1,592 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,533/1,533 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,922/1,922 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,799/1,799 rows
+     ✓ weekly/2024_options_pessimistic.csv: 2,167/2,167 rows
+     ✓ weekly/2025_options_pessimistic.csv: 3,772/3,772 rows
+   ✅ UNH: 30 files, 49,324 rows
+
+Processing V...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 9,010/9,155 rows
+     ✓ holidays/2017_options_pessimistic.csv: 7,970/7,970 rows
+     ✓ holidays/2018_options_pessimistic.csv: 11,083/11,083 rows
+     ✓ holidays/2019_options_pessimistic.csv: 9,557/9,557 rows
+     ✓ holidays/2020_options_pessimistic.csv: 14,731/14,731 rows
+     ✓ holidays/2021_options_pessimistic.csv: 18,240/18,240 rows
+     ✓ holidays/2022_options_pessimistic.csv: 15,163/15,163 rows
+     ✓ holidays/2023_options_pessimistic.csv: 12,025/12,025 rows
+     ✓ holidays/2024_options_pessimistic.csv: 16,149/16,149 rows
+     ✓ holidays/2025_options_pessimistic.csv: 21,129/21,129 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,716/1,716 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,511/1,511 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,689/1,689 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,586/1,586 rows
+     ✓ monthly/2020_options_pessimistic.csv: 2,527/2,527 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,514/2,514 rows
+     ✓ monthly/2022_options_pessimistic.csv: 2,554/2,554 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,003/2,003 rows
+     ✓ monthly/2024_options_pessimistic.csv: 2,108/2,108 rows
+     ✓ monthly/2025_options_pessimistic.csv: 2,591/2,591 rows
+     ✓ weekly/2016_options_pessimistic.csv: 1,075/1,107 rows
+     ✓ weekly/2017_options_pessimistic.csv: 1,010/1,010 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,474/1,474 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,082/1,082 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,536/1,536 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,558/1,558 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,576/1,576 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,178/1,178 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,357/1,357 rows
+     ✓ weekly/2025_options_pessimistic.csv: 2,069/2,069 rows
+   ✅ V: 30 files, 169,948 rows
+
+Processing WMT...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 742/751 rows
+     ✓ holidays/2017_options_pessimistic.csv: 869/869 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,314/1,314 rows
+     ✓ holidays/2019_options_pessimistic.csv: 944/944 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,567/1,567 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,425/1,425 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,403/1,403 rows
+     ✓ holidays/2023_options_pessimistic.csv: 941/941 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,132/1,132 rows
+     ✓ holidays/2025_options_pessimistic.csv: 1,647/1,647 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,567/1,567 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,624/1,624 rows
+     ✓ monthly/2018_options_pessimistic.csv: 2,019/2,019 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,558/1,558 rows
+     ✓ monthly/2020_options_pessimistic.csv: 2,400/2,400 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,411/2,411 rows
+     ✓ monthly/2022_options_pessimistic.csv: 2,231/2,231 rows
+     ✓ monthly/2023_options_pessimistic.csv: 1,745/1,745 rows
+     ✓ monthly/2024_options_pessimistic.csv: 1,965/1,965 rows
+     ✓ monthly/2025_options_pessimistic.csv: 2,420/2,420 rows
+     ✓ weekly/2016_options_pessimistic.csv: 924/948 rows
+     ✓ weekly/2017_options_pessimistic.csv: 1,071/1,071 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,684/1,684 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,173/1,173 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,801/1,801 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,797/1,797 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,831/1,831 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,191/1,191 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,318/1,318 rows
+     ✓ weekly/2025_options_pessimistic.csv: 2,043/2,043 rows
+   ✅ WMT: 30 files, 46,790 rows
+
+Processing XLE...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 926/944 rows
+     ✓ holidays/2017_options_pessimistic.csv: 774/774 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,118/1,118 rows
+     ✓ holidays/2019_options_pessimistic.csv: 819/819 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,221/1,221 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,329/1,329 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,977/1,977 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,541/1,541 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,343/1,343 rows
+     ✓ holidays/2025_options_pessimistic.csv: 1,381/1,381 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,415/1,415 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,241/1,241 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,462/1,462 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,065/1,065 rows
+     ✓ monthly/2020_options_pessimistic.csv: 1,791/1,791 rows
+     ✓ monthly/2021_options_pessimistic.csv: 1,688/1,688 rows
+     ✓ monthly/2022_options_pessimistic.csv: 2,296/2,296 rows
+     ✓ monthly/2023_options_pessimistic.csv: 1,719/1,719 rows
+     ✓ monthly/2024_options_pessimistic.csv: 1,488/1,488 rows
+     ✓ monthly/2025_options_pessimistic.csv: 1,453/1,453 rows
+     ✓ weekly/2016_options_pessimistic.csv: 515/533 rows
+     ✓ weekly/2017_options_pessimistic.csv: 402/402 rows
+     ✓ weekly/2018_options_pessimistic.csv: 664/664 rows
+     ✓ weekly/2019_options_pessimistic.csv: 489/489 rows
+     ✓ weekly/2020_options_pessimistic.csv: 706/706 rows
+     ✓ weekly/2021_options_pessimistic.csv: 790/790 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,151/1,151 rows
+     ✓ weekly/2023_options_pessimistic.csv: 883/883 rows
+     ✓ weekly/2024_options_pessimistic.csv: 854/854 rows
+     ✓ weekly/2025_options_pessimistic.csv: 896/896 rows
+   ✅ XLE: 30 files, 35,433 rows
+
+Processing XLF...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 272/278 rows
+     ✓ holidays/2017_options_pessimistic.csv: 369/369 rows
+     ✓ holidays/2018_options_pessimistic.csv: 492/492 rows
+     ✓ holidays/2019_options_pessimistic.csv: 444/444 rows
+     ✓ holidays/2020_options_pessimistic.csv: 685/685 rows
+     ✓ holidays/2021_options_pessimistic.csv: 841/841 rows
+     ✓ holidays/2022_options_pessimistic.csv: 828/828 rows
+     ✓ holidays/2023_options_pessimistic.csv: 551/551 rows
+     ✓ holidays/2024_options_pessimistic.csv: 664/664 rows
+     ✓ holidays/2025_options_pessimistic.csv: 782/782 rows
+     ✓ monthly/2016_options_pessimistic.csv: 395/395 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,036/1,036 rows
+     ✓ monthly/2018_options_pessimistic.csv: 575/575 rows
+     ✓ monthly/2019_options_pessimistic.csv: 504/504 rows
+     ✓ monthly/2020_options_pessimistic.csv: 821/821 rows
+     ✓ monthly/2021_options_pessimistic.csv: 1,033/1,033 rows
+     ✓ monthly/2022_options_pessimistic.csv: 981/981 rows
+     ✓ monthly/2023_options_pessimistic.csv: 684/684 rows
+     ✓ monthly/2024_options_pessimistic.csv: 811/811 rows
+     ✓ monthly/2025_options_pessimistic.csv: 999/999 rows
+     ✓ weekly/2016_options_pessimistic.csv: 427/428 rows
+     ✓ weekly/2017_options_pessimistic.csv: 1,373/1,373 rows
+     ✓ weekly/2018_options_pessimistic.csv: 288/288 rows
+     ✓ weekly/2019_options_pessimistic.csv: 276/276 rows
+     ✓ weekly/2020_options_pessimistic.csv: 400/400 rows
+     ✓ weekly/2021_options_pessimistic.csv: 495/495 rows
+     ✓ weekly/2022_options_pessimistic.csv: 480/480 rows
+     ✓ weekly/2023_options_pessimistic.csv: 308/308 rows
+     ✓ weekly/2024_options_pessimistic.csv: 389/389 rows
+     ✓ weekly/2025_options_pessimistic.csv: 640/640 rows
+   ✅ XLF: 30 files, 18,850 rows
+
+Processing XLK...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 255/263 rows
+     ✓ holidays/2017_options_pessimistic.csv: 424/424 rows
+     ✓ holidays/2018_options_pessimistic.csv: 741/741 rows
+     ✓ holidays/2019_options_pessimistic.csv: 754/754 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,443/1,443 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,328/1,328 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,687/1,687 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,436/1,436 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,007/1,007 rows
+     ✓ holidays/2025_options_pessimistic.csv: 977/977 rows
+     ✓ monthly/2016_options_pessimistic.csv: 405/405 rows
+     ✓ monthly/2017_options_pessimistic.csv: 642/642 rows
+     ✓ monthly/2018_options_pessimistic.csv: 978/978 rows
+     ✓ monthly/2019_options_pessimistic.csv: 908/908 rows
+     ✓ monthly/2020_options_pessimistic.csv: 1,809/1,809 rows
+     ✓ monthly/2021_options_pessimistic.csv: 1,698/1,698 rows
+     ✓ monthly/2022_options_pessimistic.csv: 1,918/1,918 rows
+     ✓ monthly/2023_options_pessimistic.csv: 1,642/1,642 rows
+     ✓ monthly/2024_options_pessimistic.csv: 1,085/1,085 rows
+     ✓ monthly/2025_options_pessimistic.csv: 999/999 rows
+     ✓ weekly/2016_options_pessimistic.csv: 136/144 rows
+     ✓ weekly/2017_options_pessimistic.csv: 243/243 rows
+     ✓ weekly/2018_options_pessimistic.csv: 448/448 rows
+     ✓ weekly/2019_options_pessimistic.csv: 471/471 rows
+     ✓ weekly/2020_options_pessimistic.csv: 872/872 rows
+     ✓ weekly/2021_options_pessimistic.csv: 826/826 rows
+     ✓ weekly/2022_options_pessimistic.csv: 1,047/1,047 rows
+     ✓ weekly/2023_options_pessimistic.csv: 833/833 rows
+     ✓ weekly/2024_options_pessimistic.csv: 600/600 rows
+     ✓ weekly/2025_options_pessimistic.csv: 640/640 rows
+   ✅ XLK: 30 files, 28,268 rows
+
+Processing XOM...
+   Processing 30 files (holidays, weekly, monthly)...
+     ✓ holidays/2016_options_pessimistic.csv: 915/932 rows
+     ✓ holidays/2017_options_pessimistic.csv: 796/796 rows
+     ✓ holidays/2018_options_pessimistic.csv: 1,169/1,169 rows
+     ✓ holidays/2019_options_pessimistic.csv: 923/923 rows
+     ✓ holidays/2020_options_pessimistic.csv: 1,510/1,510 rows
+     ✓ holidays/2021_options_pessimistic.csv: 1,335/1,335 rows
+     ✓ holidays/2022_options_pessimistic.csv: 1,725/1,725 rows
+     ✓ holidays/2023_options_pessimistic.csv: 1,444/1,444 rows
+     ✓ holidays/2024_options_pessimistic.csv: 1,372/1,372 rows
+     ✓ holidays/2025_options_pessimistic.csv: 1,351/1,351 rows
+     ✓ monthly/2016_options_pessimistic.csv: 1,944/1,944 rows
+     ✓ monthly/2017_options_pessimistic.csv: 1,441/1,441 rows
+     ✓ monthly/2018_options_pessimistic.csv: 1,794/1,794 rows
+     ✓ monthly/2019_options_pessimistic.csv: 1,594/1,594 rows
+     ✓ monthly/2020_options_pessimistic.csv: 2,430/2,430 rows
+     ✓ monthly/2021_options_pessimistic.csv: 2,280/2,280 rows
+     ✓ monthly/2022_options_pessimistic.csv: 2,756/2,756 rows
+     ✓ monthly/2023_options_pessimistic.csv: 2,144/2,144 rows
+     ✓ monthly/2024_options_pessimistic.csv: 1,808/1,808 rows
+     ✓ monthly/2025_options_pessimistic.csv: 1,654/1,654 rows
+     ✓ weekly/2016_options_pessimistic.csv: 1,289/1,328 rows
+     ✓ weekly/2017_options_pessimistic.csv: 1,016/1,016 rows
+     ✓ weekly/2018_options_pessimistic.csv: 1,541/1,541 rows
+     ✓ weekly/2019_options_pessimistic.csv: 1,219/1,219 rows
+     ✓ weekly/2020_options_pessimistic.csv: 1,811/1,811 rows
+     ✓ weekly/2021_options_pessimistic.csv: 1,624/1,624 rows
+     ✓ weekly/2022_options_pessimistic.csv: 2,028/2,028 rows
+     ✓ weekly/2023_options_pessimistic.csv: 1,725/1,725 rows
+     ✓ weekly/2024_options_pessimistic.csv: 1,734/1,734 rows
+     ✓ weekly/2025_options_pessimistic.csv: 1,781/1,781 rows
+   ✅ XOM: 30 files, 48,209 rows
+
+================================================================================
+✅ COMPLETED
+================================================================================
+Tickers processed: 43
+Total files updated: 1119
+Total rows: 2,430,776
+================================================================================
