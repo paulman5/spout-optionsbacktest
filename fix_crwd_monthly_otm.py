@@ -168,3 +168,4 @@ if files_failed:
     for year, error in files_failed:
         print(f"   {year}: {error}")
 
+

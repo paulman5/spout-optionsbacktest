@@ -62,7 +62,7 @@ print("=" * 120)
 print("CALCULATING ITM LIQUIDATION COUNTS AND APY AVERAGES PER YEAR")
 print("=" * 120)
 print("Logic:")
-print("  - Low Monthly IV → Monthly options with 10-13% probability ITM")
+print("  - Low Monthly IV → Monthly options with 10-13% probability ITM (AAPL: 7-11%)")
 print("  - High Monthly IV → Weekly options with 4-7% probability ITM")
 print("  - Count unique expiration dates with ITM == 'YES' (1 per expiration)")
 print("  - Calculate average APY per year")
@@ -290,7 +290,13 @@ for ticker_dir in sorted(base_dir.iterdir()):
                         'apy_values': []
                     }
             
-            # First pass: try 10-13% range
+            # First pass: try 10-13% range (7-11% for AAPL)
+            # Determine probability range based on ticker
+            if ticker == 'AAPL':
+                prob_min, prob_max = 0.07, 0.11  # 7-11% for AAPL (safer)
+            else:
+                prob_min, prob_max = 0.10, 0.13  # 10-13% for others
+            
             for file in sorted(monthly_dir.glob('*_options_pessimistic.csv')):
                 try:
                     df = pd.read_csv(file)
@@ -308,9 +314,9 @@ for ticker_dir in sorted(base_dir.iterdir()):
                         except:
                             continue
                     
-                    # Filter by 10-13% probability ITM
-                    filtered = df[(df['probability_itm'] >= 0.10) & 
-                                  (df['probability_itm'] <= 0.13) & 
+                    # Filter by probability ITM range (ticker-specific)
+                    filtered = df[(df['probability_itm'] >= prob_min) & 
+                                  (df['probability_itm'] <= prob_max) & 
                                   (df['probability_itm'].notna())]
                     
                     if len(filtered) == 0:
@@ -343,7 +349,13 @@ for ticker_dir in sorted(base_dir.iterdir()):
                 except Exception as e:
                     continue
             
-            # Second pass: fill missing years with expanded range (8-13%)
+            # Second pass: fill missing months to ensure all 12 months are covered
+            # Determine expanded probability range based on ticker
+            if ticker == 'AAPL':
+                exp_prob_min, exp_prob_max = 0.04, 0.11  # 4-11% for AAPL (expanded to fill all 12 months)
+            else:
+                exp_prob_min, exp_prob_max = 0.08, 0.13  # 8-13% for others
+            
             for file in sorted(monthly_dir.glob('*_options_pessimistic.csv')):
                 try:
                     df = pd.read_csv(file)
@@ -361,37 +373,48 @@ for ticker_dir in sorted(base_dir.iterdir()):
                         except:
                             continue
                     
-                    # Process per year - check if year needs filling
+                    # Process per year - check if year needs filling to reach 12 months
                     for year, year_group in df.groupby('year'):
-                        # Only fill if this year has no unique expirations yet
-                        if len(yearly_data[year]['unique_expirations']) == 0:
-                            # Use expanded range 8-13%
-                            filtered = year_group[(year_group['probability_itm'] >= 0.08) & 
-                                                  (year_group['probability_itm'] <= 0.13) & 
+                        # Check if this year has less than 12 unique months
+                        current_months = len(yearly_data[year]['unique_expirations'])
+                        if current_months < 12:
+                            # Use expanded range to fill missing months
+                            # Filter to only include months not already covered
+                            filtered = year_group[(year_group['probability_itm'] >= exp_prob_min) & 
+                                                  (year_group['probability_itm'] <= exp_prob_max) & 
                                                   (year_group['probability_itm'].notna())]
                             
                             if len(filtered) > 0:
-                                yearly_data[year]['total_options'] += len(filtered)
+                                # Track which months we're adding (to avoid duplicates)
+                                new_months = set()
+                                new_itm_months = set()
+                                new_options = []
+                                new_apy_values = []
                                 
-                                # Track unique expirations - for monthly: extract unique months (YYYY-MM)
-                                for exp_date in filtered['expiration_date'].unique():
-                                    if pd.notna(exp_date):
-                                        exp_dt = pd.to_datetime(exp_date)
-                                        month_key = f"{exp_dt.year}-{exp_dt.month:02d}"  # YYYY-MM format
-                                        yearly_data[year]['unique_expirations'].add(month_key)
+                                for _, row in filtered.iterrows():
+                                    if pd.notna(row['expiration_date']):
+                                        exp_dt = pd.to_datetime(row['expiration_date'])
+                                        month_key = f"{exp_dt.year}-{exp_dt.month:02d}"
+                                        
+                                        # Only add if this month is not already covered
+                                        if month_key not in yearly_data[year]['unique_expirations']:
+                                            new_months.add(month_key)
+                                            new_options.append(row)
+                                            
+                                            # Track ITM if applicable
+                                            if row.get('ITM') == 'YES':
+                                                new_itm_months.add(month_key)
+                                            
+                                            # Collect APY values
+                                            if 'premium_yield_pct' in row and pd.notna(row['premium_yield_pct']):
+                                                new_apy_values.append(row['premium_yield_pct'])
                                 
-                                # Track ITM expirations - for monthly: extract unique months where ITM == 'YES'
-                                itm_rows = filtered[filtered['ITM'] == 'YES']
-                                for exp_date in itm_rows['expiration_date'].unique():
-                                    if pd.notna(exp_date):
-                                        exp_dt = pd.to_datetime(exp_date)
-                                        month_key = f"{exp_dt.year}-{exp_dt.month:02d}"  # YYYY-MM format
-                                        yearly_data[year]['itm_expirations'].add(month_key)
-                                
-                                # Collect APY values
-                                if 'premium_yield_pct' in filtered.columns:
-                                    apy_vals = filtered['premium_yield_pct'].dropna()
-                                    yearly_data[year]['apy_values'].extend(apy_vals.tolist())
+                                # Add new months and data
+                                if new_months:
+                                    yearly_data[year]['total_options'] += len(new_options)
+                                    yearly_data[year]['unique_expirations'].update(new_months)
+                                    yearly_data[year]['itm_expirations'].update(new_itm_months)
+                                    yearly_data[year]['apy_values'].extend(new_apy_values)
                         
                 except Exception as e:
                     continue
@@ -432,7 +455,7 @@ for ticker_dir in sorted(base_dir.iterdir()):
             'iv_level': monthly_iv_level,
             'avg_iv': avg_iv,
             'option_type': 'Weekly' if monthly_iv_level == 'high' else 'Monthly',
-            'prob_range': '4-7%' if monthly_iv_level == 'high' else '10-13%',
+            'prob_range': '4-7%' if monthly_iv_level == 'high' else ('7-11%' if ticker == 'AAPL' else '10-13%'),
             'yearly_data': processed_yearly
         }
 
@@ -444,7 +467,7 @@ with open(output_file, 'w') as f:
     f.write("ITM LIQUIDATION COUNTS AND APY AVERAGES PER YEAR\n")
     f.write("=" * 120 + "\n")
     f.write(f"\nIV Threshold (median): {iv_threshold:.4f} ({iv_threshold*100:.2f}%)\n")
-    f.write(f"Logic: Low IV → Monthly (10-13% prob ITM, expanded to 8-13% if needed), High IV → Weekly (4-7% prob ITM, expanded to 3-8% if needed)\n")
+    f.write(f"Logic: Low IV → Monthly (10-13% prob ITM, expanded to 8-13% if needed; AAPL uses 7-11%, expanded to 6-11%), High IV → Weekly (4-7% prob ITM, expanded to 3-8% if needed)\n")
     f.write(f"ITM Count: Unique expiration dates with ITM == 'YES' (1 per expiration)\n")
     f.write(f"ITM Rate: For monthly: (ITM expirations / 12) * 100%, For weekly: (ITM expirations / total weeks) * 100%\n")
     f.write(f"APY: Average premium_yield_pct per year\n")
@@ -617,8 +640,8 @@ with open(output_file, 'w') as f:
     f.write(f"{'Ticker':<9} {'Type':<8} ")
     for year in all_years:
         f.write(f"{year} Hit Rate{'':<6}")
-    f.write(f"{'Avg':<16}\n")
-    f.write("-" * 120 + "\n")
+    f.write(f"{'Avg rate per stock':<20}\n")
+    f.write("-" * 150 + "\n")
     
     # Write per-ticker, per-year data
     for ticker in sorted_tickers:
@@ -647,19 +670,11 @@ with open(output_file, 'w') as f:
             else:
                 f.write(f"{'N/A':<16}")
         
-        # Calculate average ITM rate for this ticker (across all years)
-        total_itm_all = sum(yd['itm_expirations'] for yd in r['yearly_data'].values())
-        total_unique_exp_all = sum(yd['unique_expirations'] for yd in r['yearly_data'].values())
+        # Calculate average hit rate per stock from the yearly hit rates
+        avg_hit_rate = np.mean(ticker_hit_rates) if ticker_hit_rates else 0.0
         
-        if option_type == 'Monthly':
-            # For monthly: (total ITM months / (num_years * 12)) * 100%
-            num_years = len(r['yearly_data'])
-            avg_itm_rate = (total_itm_all / (num_years * 12) * 100) if num_years > 0 else 0
-        else:  # Weekly
-            # For weekly: (total ITM expirations / total unique expirations) * 100%
-            avg_itm_rate = (total_itm_all / total_unique_exp_all * 100) if total_unique_exp_all > 0 else 0
-        
-        f.write(f"{avg_itm_rate:>10.2f}%\n")
+        # Write the average hit rate for this stock
+        f.write(f"{avg_hit_rate:>10.2f}%\n")
     
     # Summary row: Average across all tickers per year
     f.write("-" * 120 + "\n")

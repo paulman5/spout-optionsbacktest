@@ -416,3 +416,4 @@ print(f"❌ Poor (< 50%): {len(poor)} tickers - {', '.join(poor)}")
 
 print("\n" + "=" * 120)
 
+

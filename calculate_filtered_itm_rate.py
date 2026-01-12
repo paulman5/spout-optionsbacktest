@@ -196,3 +196,4 @@ print(monthly_tickers)
 
 print("\n" + "=" * 100)
 
+

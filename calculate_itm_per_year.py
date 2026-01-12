@@ -286,3 +286,4 @@ with open(output_file, 'w') as f:
 print(f"✅ Per-year ITM liquidation data saved to: {output_file}")
 print(f"   Open the file to inspect all results by year.")
 
+

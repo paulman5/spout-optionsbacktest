@@ -170,3 +170,4 @@ print(f"Total Prob ITM valid: {total_prob_all:,} ({total_prob_all/total_rows_all
 print(f"Tickers with low coverage: {len(low_coverage_tickers)}")
 print("=" * 100)
 
+

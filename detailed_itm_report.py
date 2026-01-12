@@ -280,4 +280,3 @@ print("\n" + "=" * 120)
 sys.stdout = original_stdout
 f.close()
 print(f"\nFull report saved to: {output_file}")
-
