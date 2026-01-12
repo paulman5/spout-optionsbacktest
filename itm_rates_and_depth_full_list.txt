@@ -1,0 +1,817 @@
+========================================================================================================================
+FULL LIST: ITM RATES AND DEPTH FOR ALL STOCKS
+========================================================================================================================
+
+IV Threshold (median): 0.3266 (32.66%)
+Logic: Low IV → Monthly (10-13% prob ITM), High IV → Weekly (4-7% prob ITM)
+
+
+========================================================================================================================
+TICKER: AAPL
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          26.58%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       384
+  ITM Options:         87
+  ITM Rate:            22.66%
+
+  ITM Depth Statistics:
+    Average Depth:     $4.66
+    Median Depth:       $2.89
+    Min Depth:          $0.04
+    Max Depth:          $21.75
+    ITM Options with Depth Data: 87
+
+========================================================================================================================
+TICKER: ADBE
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          30.40%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       636
+  ITM Options:         71
+  ITM Rate:            11.16%
+
+  ITM Depth Statistics:
+    Average Depth:     $20.72
+    Median Depth:       $9.13
+    Min Depth:          $0.05
+    Max Depth:          $133.74
+    ITM Options with Depth Data: 71
+
+========================================================================================================================
+TICKER: AMAT
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          434.51%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       352
+  ITM Options:         70
+  ITM Rate:            19.89%
+
+  ITM Depth Statistics:
+    Average Depth:     $4.24
+    Median Depth:       $3.73
+    Min Depth:          $0.10
+    Max Depth:          $13.16
+    ITM Options with Depth Data: 70
+
+========================================================================================================================
+TICKER: AMD
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          49.72%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       720
+  ITM Options:         111
+  ITM Rate:            15.42%
+
+  ITM Depth Statistics:
+    Average Depth:     $3.06
+    Median Depth:       $1.94
+    Min Depth:          $0.03
+    Max Depth:          $12.72
+    ITM Options with Depth Data: 110
+
+========================================================================================================================
+TICKER: AMZN
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          23.74%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       1,140
+  ITM Options:         283
+  ITM Rate:            24.82%
+
+  ITM Depth Statistics:
+    Average Depth:     $3.64
+    Median Depth:       $2.81
+    Min Depth:          $0.04
+    Max Depth:          $22.50
+    ITM Options with Depth Data: 283
+
+========================================================================================================================
+TICKER: AVGO
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          180.89%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       826
+  ITM Options:         58
+  ITM Rate:            7.02%
+
+  ITM Depth Statistics:
+    Average Depth:     $5.53
+    Median Depth:       $1.53
+    Min Depth:          $0.05
+    Max Depth:          $31.34
+    ITM Options with Depth Data: 58
+
+========================================================================================================================
+TICKER: COST
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          20.83%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       516
+  ITM Options:         87
+  ITM Rate:            16.86%
+
+  ITM Depth Statistics:
+    Average Depth:     $16.74
+    Median Depth:       $14.54
+    Min Depth:          $0.67
+    Max Depth:          $50.28
+    ITM Options with Depth Data: 87
+
+========================================================================================================================
+TICKER: CRM
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          30.94%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       377
+  ITM Options:         36
+  ITM Rate:            9.55%
+
+  ITM Depth Statistics:
+    Average Depth:     $5.81
+    Median Depth:       $3.93
+    Min Depth:          $0.12
+    Max Depth:          $22.31
+    ITM Options with Depth Data: 35
+
+========================================================================================================================
+TICKER: CRWD
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          45.53%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       593
+  ITM Options:         120
+  ITM Rate:            20.24%
+
+  ITM Depth Statistics:
+    Average Depth:     $7.19
+    Median Depth:       $5.34
+    Min Depth:          $0.07
+    Max Depth:          $35.74
+    ITM Options with Depth Data: 119
+
+========================================================================================================================
+TICKER: CSCO
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          21.63%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       266
+  ITM Options:         52
+  ITM Rate:            19.55%
+
+  ITM Depth Statistics:
+    Average Depth:     $0.67
+    Median Depth:       $0.46
+    Min Depth:          $0.06
+    Max Depth:          $3.30
+    ITM Options with Depth Data: 52
+
+========================================================================================================================
+TICKER: GOOG
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          24.45%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       794
+  ITM Options:         78
+  ITM Rate:            9.82%
+
+  ITM Depth Statistics:
+    Average Depth:     $4.45
+    Median Depth:       $1.39
+    Min Depth:          $0.04
+    Max Depth:          $34.20
+    ITM Options with Depth Data: 78
+
+========================================================================================================================
+TICKER: HOOD
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          75.02%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       306
+  ITM Options:         46
+  ITM Rate:            15.03%
+
+  ITM Depth Statistics:
+    Average Depth:     $2.06
+    Median Depth:       $1.49
+    Min Depth:          $0.04
+    Max Depth:          $6.95
+    ITM Options with Depth Data: 44
+
+========================================================================================================================
+TICKER: INTC
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          36.86%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       529
+  ITM Options:         81
+  ITM Rate:            15.31%
+
+  ITM Depth Statistics:
+    Average Depth:     $1.24
+    Median Depth:       $0.79
+    Min Depth:          $0.02
+    Max Depth:          $5.15
+    ITM Options with Depth Data: 80
+
+========================================================================================================================
+TICKER: IWM
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          18.81%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       863
+  ITM Options:         143
+  ITM Rate:            16.57%
+
+  ITM Depth Statistics:
+    Average Depth:     $3.24
+    Median Depth:       $2.41
+    Min Depth:          $0.11
+    Max Depth:          $18.55
+    ITM Options with Depth Data: 143
+
+========================================================================================================================
+TICKER: JPM
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          21.22%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       291
+  ITM Options:         65
+  ITM Rate:            22.34%
+
+  ITM Depth Statistics:
+    Average Depth:     $3.30
+    Median Depth:       $2.65
+    Min Depth:          $0.34
+    Max Depth:          $13.46
+    ITM Options with Depth Data: 65
+
+========================================================================================================================
+TICKER: KO
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          15.79%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       203
+  ITM Options:         21
+  ITM Rate:            10.34%
+
+  ITM Depth Statistics:
+    Average Depth:     $1.19
+    Median Depth:       $0.30
+    Min Depth:          $0.08
+    Max Depth:          $5.60
+    ITM Options with Depth Data: 21
+
+========================================================================================================================
+TICKER: LQD
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          317.42%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       178
+  ITM Options:         27
+  ITM Rate:            15.17%
+
+  ITM Depth Statistics:
+    Average Depth:     $0.71
+    Median Depth:       $0.51
+    Min Depth:          $0.01
+    Max Depth:          $2.40
+    ITM Options with Depth Data: 27
+
+========================================================================================================================
+TICKER: LRCX
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          225.06%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       849
+  ITM Options:         60
+  ITM Rate:            7.07%
+
+  ITM Depth Statistics:
+    Average Depth:     $1.26
+    Median Depth:       $0.51
+    Min Depth:          $0.01
+    Max Depth:          $9.91
+    ITM Options with Depth Data: 59
+
+========================================================================================================================
+TICKER: META
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          32.43%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       559
+  ITM Options:         47
+  ITM Rate:            8.41%
+
+  ITM Depth Statistics:
+    Average Depth:     $17.64
+    Median Depth:       $6.82
+    Min Depth:          $0.05
+    Max Depth:          $58.96
+    ITM Options with Depth Data: 47
+
+========================================================================================================================
+TICKER: MRK
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          30.99%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       292
+  ITM Options:         36
+  ITM Rate:            12.33%
+
+  ITM Depth Statistics:
+    Average Depth:     $2.23
+    Median Depth:       $1.80
+    Min Depth:          $0.08
+    Max Depth:          $6.02
+    ITM Options with Depth Data: 36
+
+========================================================================================================================
+TICKER: MSFT
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          22.59%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       423
+  ITM Options:         72
+  ITM Rate:            17.02%
+
+  ITM Depth Statistics:
+    Average Depth:     $7.11
+    Median Depth:       $4.25
+    Min Depth:          $0.11
+    Max Depth:          $44.36
+    ITM Options with Depth Data: 72
+
+========================================================================================================================
+TICKER: MU
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          42.19%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       721
+  ITM Options:         113
+  ITM Rate:            15.67%
+
+  ITM Depth Statistics:
+    Average Depth:     $2.55
+    Median Depth:       $1.40
+    Min Depth:          $0.02
+    Max Depth:          $19.28
+    ITM Options with Depth Data: 111
+
+========================================================================================================================
+TICKER: NFLX
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          213.87%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       1,356
+  ITM Options:         38
+  ITM Rate:            2.80%
+
+  ITM Depth Statistics:
+    Average Depth:     $0.47
+    Median Depth:       $0.29
+    Min Depth:          $0.02
+    Max Depth:          $1.63
+    ITM Options with Depth Data: 38
+
+========================================================================================================================
+TICKER: NVDA
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          192.46%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       1,212
+  ITM Options:         54
+  ITM Rate:            4.46%
+
+  ITM Depth Statistics:
+    Average Depth:     $2.78
+    Median Depth:       $2.02
+    Min Depth:          $0.02
+    Max Depth:          $9.71
+    ITM Options with Depth Data: 54
+
+========================================================================================================================
+TICKER: ORCL
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          27.74%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       293
+  ITM Options:         55
+  ITM Rate:            18.77%
+
+  ITM Depth Statistics:
+    Average Depth:     $7.57
+    Median Depth:       $2.22
+    Min Depth:          $0.29
+    Max Depth:          $31.30
+    ITM Options with Depth Data: 55
+
+========================================================================================================================
+TICKER: PLTR
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          457.92%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       311
+  ITM Options:         60
+  ITM Rate:            19.29%
+
+  ITM Depth Statistics:
+    Average Depth:     $3.76
+    Median Depth:       $1.79
+    Min Depth:          $0.01
+    Max Depth:          $17.30
+    ITM Options with Depth Data: 59
+
+========================================================================================================================
+TICKER: QCOM
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          30.75%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       336
+  ITM Options:         46
+  ITM Rate:            13.69%
+
+  ITM Depth Statistics:
+    Average Depth:     $7.12
+    Median Depth:       $3.63
+    Min Depth:          $0.19
+    Max Depth:          $41.60
+    ITM Options with Depth Data: 46
+
+========================================================================================================================
+TICKER: SOFI
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          511.47%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       169
+  ITM Options:         14
+  ITM Rate:            8.28%
+
+  ITM Depth Statistics:
+    Average Depth:     $0.68
+    Median Depth:       $0.61
+    Min Depth:          $0.04
+    Max Depth:          $1.79
+    ITM Options with Depth Data: 13
+
+========================================================================================================================
+TICKER: SPOT
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          41.79%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       720
+  ITM Options:         113
+  ITM Rate:            15.69%
+
+  ITM Depth Statistics:
+    Average Depth:     $9.28
+    Median Depth:       $6.64
+    Min Depth:          $0.08
+    Max Depth:          $39.75
+    ITM Options with Depth Data: 113
+
+========================================================================================================================
+TICKER: SPY
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          13.81%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       1,032
+  ITM Options:         179
+  ITM Rate:            17.34%
+
+  ITM Depth Statistics:
+    Average Depth:     $5.84
+    Median Depth:       $3.78
+    Min Depth:          $0.01
+    Max Depth:          $29.50
+    ITM Options with Depth Data: 179
+
+========================================================================================================================
+TICKER: TSLA
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          158.61%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       1,586
+  ITM Options:         114
+  ITM Rate:            7.19%
+
+  ITM Depth Statistics:
+    Average Depth:     $9.69
+    Median Depth:       $5.15
+    Min Depth:          $0.06
+    Max Depth:          $61.21
+    ITM Options with Depth Data: 113
+
+========================================================================================================================
+TICKER: UBER
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          454.62%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       407
+  ITM Options:         58
+  ITM Rate:            14.25%
+
+  ITM Depth Statistics:
+    Average Depth:     $1.66
+    Median Depth:       $1.35
+    Min Depth:          $0.05
+    Max Depth:          $5.88
+    ITM Options with Depth Data: 57
+
+========================================================================================================================
+TICKER: UNH
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          26.55%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       322
+  ITM Options:         49
+  ITM Rate:            15.22%
+
+  ITM Depth Statistics:
+    Average Depth:     $12.28
+    Median Depth:       $6.85
+    Min Depth:          $0.40
+    Max Depth:          $44.00
+    ITM Options with Depth Data: 49
+
+========================================================================================================================
+TICKER: V
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          20.11%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       307
+  ITM Options:         47
+  ITM Rate:            15.31%
+
+  ITM Depth Statistics:
+    Average Depth:     $3.17
+    Median Depth:       $2.26
+    Min Depth:          $0.18
+    Max Depth:          $9.75
+    ITM Options with Depth Data: 47
+
+========================================================================================================================
+TICKER: WMT
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          97.31%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       529
+  ITM Options:         45
+  ITM Rate:            8.51%
+
+  ITM Depth Statistics:
+    Average Depth:     $0.82
+    Median Depth:       $0.53
+    Min Depth:          $0.04
+    Max Depth:          $3.20
+    ITM Options with Depth Data: 44
+
+========================================================================================================================
+TICKER: XLE
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          79.54%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       1,208
+  ITM Options:         1
+  ITM Rate:            0.08%
+
+  ITM Depth Statistics:
+    Average Depth:     $0.03
+    Median Depth:       $0.03
+    Min Depth:          $0.03
+    Max Depth:          $0.03
+    ITM Options with Depth Data: 1
+
+========================================================================================================================
+TICKER: XLF
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          93.57%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       284
+  ITM Options:         41
+  ITM Rate:            14.44%
+
+  ITM Depth Statistics:
+    Average Depth:     $0.33
+    Median Depth:       $0.23
+    Min Depth:          $0.01
+    Max Depth:          $1.32
+    ITM Options with Depth Data: 40
+
+========================================================================================================================
+TICKER: XLK
+========================================================================================================================
+  IV Level:           HIGH
+  Average IV:          80.90%
+  Option Type:         Weekly
+  Probability Range:   4-7%
+
+  Total Options:       470
+  ITM Options:         66
+  ITM Rate:            14.04%
+
+  ITM Depth Statistics:
+    Average Depth:     $0.90
+    Median Depth:       $0.58
+    Min Depth:          $0.01
+    Max Depth:          $4.43
+    ITM Options with Depth Data: 65
+
+========================================================================================================================
+TICKER: XOM
+========================================================================================================================
+  IV Level:           LOW
+  Average IV:          23.89%
+  Option Type:         Monthly
+  Probability Range:   10-13%
+
+  Total Options:       320
+  ITM Options:         53
+  ITM Rate:            16.56%
+
+  ITM Depth Statistics:
+    Average Depth:     $2.08
+    Median Depth:       $1.16
+    Min Depth:          $0.04
+    Max Depth:          $8.90
+    ITM Options with Depth Data: 52
+
+
+========================================================================================================================
+SUMMARY TABLE
+========================================================================================================================
+Ticker   IV%      Type     Prob     Total      ITM      ITM%     Avg$       Med$       Min$     Max$      
+------------------------------------------------------------------------------------------------------------------------
+AAPL      26.58% Monthly  10-13%         384      87   22.66% $    4.66 $    2.89 $  0.04 $   21.75
+ADBE      30.40% Monthly  10-13%         636      71   11.16% $   20.72 $    9.13 $  0.05 $  133.74
+AMAT     434.51% Weekly   4-7%           352      70   19.89% $    4.24 $    3.73 $  0.10 $   13.16
+AMD       49.72% Weekly   4-7%           720     111   15.42% $    3.06 $    1.94 $  0.03 $   12.72
+AMZN      23.74% Monthly  10-13%       1,140     283   24.82% $    3.64 $    2.81 $  0.04 $   22.50
+AVGO     180.89% Weekly   4-7%           826      58    7.02% $    5.53 $    1.53 $  0.05 $   31.34
+COST      20.83% Monthly  10-13%         516      87   16.86% $   16.74 $   14.54 $  0.67 $   50.28
+CRM       30.94% Monthly  10-13%         377      36    9.55% $    5.81 $    3.93 $  0.12 $   22.31
+CRWD      45.53% Weekly   4-7%           593     120   20.24% $    7.19 $    5.34 $  0.07 $   35.74
+CSCO      21.63% Monthly  10-13%         266      52   19.55% $    0.67 $    0.46 $  0.06 $    3.30
+GOOG      24.45% Monthly  10-13%         794      78    9.82% $    4.45 $    1.39 $  0.04 $   34.20
+HOOD      75.02% Weekly   4-7%           306      46   15.03% $    2.06 $    1.49 $  0.04 $    6.95
+INTC      36.86% Weekly   4-7%           529      81   15.31% $    1.24 $    0.79 $  0.02 $    5.15
+IWM       18.81% Monthly  10-13%         863     143   16.57% $    3.24 $    2.41 $  0.11 $   18.55
+JPM       21.22% Monthly  10-13%         291      65   22.34% $    3.30 $    2.65 $  0.34 $   13.46
+KO        15.79% Monthly  10-13%         203      21   10.34% $    1.19 $    0.30 $  0.08 $    5.60
+LQD      317.42% Weekly   4-7%           178      27   15.17% $    0.71 $    0.51 $  0.01 $    2.40
+LRCX     225.06% Weekly   4-7%           849      60    7.07% $    1.26 $    0.51 $  0.01 $    9.91
+META      32.43% Monthly  10-13%         559      47    8.41% $   17.64 $    6.82 $  0.05 $   58.96
+MRK       30.99% Monthly  10-13%         292      36   12.33% $    2.23 $    1.80 $  0.08 $    6.02
+MSFT      22.59% Monthly  10-13%         423      72   17.02% $    7.11 $    4.25 $  0.11 $   44.36
+MU        42.19% Weekly   4-7%           721     113   15.67% $    2.55 $    1.40 $  0.02 $   19.28
+NFLX     213.87% Weekly   4-7%         1,356      38    2.80% $    0.47 $    0.29 $  0.02 $    1.63
+NVDA     192.46% Weekly   4-7%         1,212      54    4.46% $    2.78 $    2.02 $  0.02 $    9.71
+ORCL      27.74% Monthly  10-13%         293      55   18.77% $    7.57 $    2.22 $  0.29 $   31.30
+PLTR     457.92% Weekly   4-7%           311      60   19.29% $    3.76 $    1.79 $  0.01 $   17.30
+QCOM      30.75% Monthly  10-13%         336      46   13.69% $    7.12 $    3.63 $  0.19 $   41.60
+SOFI     511.47% Weekly   4-7%           169      14    8.28% $    0.68 $    0.61 $  0.04 $    1.79
+SPOT      41.79% Weekly   4-7%           720     113   15.69% $    9.28 $    6.64 $  0.08 $   39.75
+SPY       13.81% Monthly  10-13%       1,032     179   17.34% $    5.84 $    3.78 $  0.01 $   29.50
+TSLA     158.61% Weekly   4-7%         1,586     114    7.19% $    9.69 $    5.15 $  0.06 $   61.21
+UBER     454.62% Weekly   4-7%           407      58   14.25% $    1.66 $    1.35 $  0.05 $    5.88
+UNH       26.55% Monthly  10-13%         322      49   15.22% $   12.28 $    6.85 $  0.40 $   44.00
+V         20.11% Monthly  10-13%         307      47   15.31% $    3.17 $    2.26 $  0.18 $    9.75
+WMT       97.31% Weekly   4-7%           529      45    8.51% $    0.82 $    0.53 $  0.04 $    3.20
+XLE       79.54% Weekly   4-7%         1,208       1    0.08% $    0.03 $    0.03 $  0.03 $    0.03
+XLF       93.57% Weekly   4-7%           284      41   14.44% $    0.33 $    0.23 $  0.01 $    1.32
+XLK       80.90% Weekly   4-7%           470      66   14.04% $    0.90 $    0.58 $  0.01 $    4.43
+XOM       23.89% Monthly  10-13%         320      53   16.56% $    2.08 $    1.16 $  0.04 $    8.90
+------------------------------------------------------------------------------------------------------------------------
+TOTAL                                  22,680   2,797   12.33%
+
+
+========================================================================================================================
+DATA AS LISTS (for easy copy-paste)
+========================================================================================================================
+
+Ticker Names:
+['AAPL', 'ADBE', 'AMAT', 'AMD', 'AMZN', 'AVGO', 'COST', 'CRM', 'CRWD', 'CSCO', 'GOOG', 'HOOD', 'INTC', 'IWM', 'JPM', 'KO', 'LQD', 'LRCX', 'META', 'MRK', 'MSFT', 'MU', 'NFLX', 'NVDA', 'ORCL', 'PLTR', 'QCOM', 'SOFI', 'SPOT', 'SPY', 'TSLA', 'UBER', 'UNH', 'V', 'WMT', 'XLE', 'XLF', 'XLK', 'XOM']
+
+ITM Rates (%):
+[np.float64(22.66), np.float64(11.16), np.float64(19.89), np.float64(15.42), np.float64(24.82), np.float64(7.02), np.float64(16.86), np.float64(9.55), np.float64(20.24), np.float64(19.55), np.float64(9.82), np.float64(15.03), np.float64(15.31), np.float64(16.57), np.float64(22.34), np.float64(10.34), np.float64(15.17), np.float64(7.07), np.float64(8.41), np.float64(12.33), np.float64(17.02), np.float64(15.67), np.float64(2.8), np.float64(4.46), np.float64(18.77), np.float64(19.29), np.float64(13.69), np.float64(8.28), np.float64(15.69), np.float64(17.34), np.float64(7.19), np.float64(14.25), np.float64(15.22), np.float64(15.31), np.float64(8.51), np.float64(0.08), np.float64(14.44), np.float64(14.04), np.float64(16.56)]
+
+Average Depth ($):
+[np.float64(4.66), np.float64(20.72), np.float64(4.24), np.float64(3.06), np.float64(3.64), np.float64(5.52), np.float64(16.74), np.float64(5.81), np.float64(7.19), np.float64(0.67), np.float64(4.45), np.float64(2.06), np.float64(1.24), np.float64(3.24), np.float64(3.3), np.float64(1.19), np.float64(0.71), np.float64(1.26), np.float64(17.64), np.float64(2.23), np.float64(7.11), np.float64(2.55), np.float64(0.47), np.float64(2.78), np.float64(7.57), np.float64(3.76), np.float64(7.12), np.float64(0.68), np.float64(9.28), np.float64(5.84), np.float64(9.69), np.float64(1.66), np.float64(12.28), np.float64(3.17), np.float64(0.82), np.float64(0.03), np.float64(0.33), np.float64(0.9), np.float64(2.08)]
+
+Median Depth ($):
+[np.float64(2.89), np.float64(9.13), np.float64(3.73), np.float64(1.94), np.float64(2.81), np.float64(1.53), np.float64(14.54), np.float64(3.93), np.float64(5.34), np.float64(0.46), np.float64(1.39), np.float64(1.49), np.float64(0.79), np.float64(2.41), np.float64(2.65), np.float64(0.3), np.float64(0.51), np.float64(0.51), np.float64(6.82), np.float64(1.8), np.float64(4.25), np.float64(1.4), np.float64(0.29), np.float64(2.02), np.float64(2.22), np.float64(1.79), np.float64(3.63), np.float64(0.61), np.float64(6.64), np.float64(3.78), np.float64(5.15), np.float64(1.35), np.float64(6.85), np.float64(2.26), np.float64(0.53), np.float64(0.03), np.float64(0.23), np.float64(0.58), np.float64(1.16)]
+
+Max Depth ($):
+[np.float64(21.75), np.float64(133.74), np.float64(13.16), np.float64(12.72), np.float64(22.5), np.float64(31.34), np.float64(50.28), np.float64(22.31), np.float64(35.74), np.float64(3.3), np.float64(34.2), np.float64(6.95), np.float64(5.15), np.float64(18.55), np.float64(13.46), np.float64(5.6), np.float64(2.4), np.float64(9.91), np.float64(58.96), np.float64(6.02), np.float64(44.36), np.float64(19.28), np.float64(1.63), np.float64(9.71), np.float64(31.3), np.float64(17.3), np.float64(41.6), np.float64(1.79), np.float64(39.75), np.float64(29.5), np.float64(61.21), np.float64(5.88), np.float64(44.0), np.float64(9.75), np.float64(3.2), np.float64(0.03), np.float64(1.32), np.float64(4.43), np.float64(8.9)]
+

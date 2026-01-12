@@ -45,12 +45,17 @@ def main():
     """Main function to process all tickers."""
     data_dir = Path('python-boilerplate/data')
     
-    # Find all CSV files in holidays, weekly, and monthly directories
-    pattern = str(data_dir / '**' / '*.csv')
-    csv_files = glob.glob(pattern, recursive=True)
-    
-    # Filter to only options files (exclude HistoricalData files)
-    options_files = [f for f in csv_files if 'options_pessimistic' in f and 'HistoricalData' not in f]
+    # Only process monthly and holidays directories
+    options_files = []
+    for ticker_dir in sorted(data_dir.iterdir()):
+        if not ticker_dir.is_dir() or ticker_dir.name.startswith('.'):
+            continue
+        
+        for subdir in ['monthly', 'holidays']:
+            subdir_path = ticker_dir / subdir
+            if subdir_path.exists():
+                for csv_file in subdir_path.glob('*_options_pessimistic.csv'):
+                    options_files.append(csv_file)
     
     print("=" * 80)
     print("REMOVING PUT OPTIONS FROM ALL TICKERS")
