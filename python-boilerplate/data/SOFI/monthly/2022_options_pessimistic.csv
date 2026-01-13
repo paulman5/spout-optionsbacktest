@@ -1,1 +1,1 @@
-ticker,date_only,expiration_date,underlying_symbol,option_type,strike,volume,open_price,close_price,high_price,low_price,transactions,window_start,days_to_expiry,time_remaining_category
+ticker,date_only,expiration_date,underlying_symbol,option_type,strike,volume,open_price,close_price,high_price,low_price,transactions,window_start,days_to_expiry,time_remaining_category,mid_price,fedfunds_rate,implied_volatility,probability_itm
